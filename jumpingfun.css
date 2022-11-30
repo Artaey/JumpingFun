@@ -19,7 +19,22 @@ body nav {
   background-color: #083649;
 }/*# sourceMappingURL=jumpingfun.css.map */
 
+
+
+/* login side start */
+body#index {background-image: none} 
+
 #logo img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
+
+div{
+  text-align: center;
+  padding-top: 60px;
+}
+
+
+
+/* login side slut */
+
