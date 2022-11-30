@@ -1,25 +1,69 @@
 $backcolor: #F8F8F8;
 $darkblue: #083649;
+$darkpink: #ec008c;
+
+@mixin topbottom {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    background-color: $darkblue;
+}
 
 body{
     background-image: url(assets/baggrund.iphone.svg);
     margin: 0px;
 
     header{
-        position: fixed;
+        @include topbottom();
         top: 0;
-        right: 0;
-        height: 100px;
-        width: 100%;
-        background-color: $darkblue;
+        flex-flow: column;
+
+        h1{
+            color: #F8F8F8;
+            width: 100%;
+            text-align: center;
+            font-family: sans-serif;
+
+            .pink{
+                color: $darkpink;
+            }
+        }
     }
 
     nav{
-        position: fixed;
+        @include topbottom();
         bottom: 0;
-        right: 0;
-        height: 100px;
+    }
+}
+
+.proimg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    position: fixed;
+    z-index: 1;
+
+    height: 125px;
+    width: 100%;
+    
+    img{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50px;
+        object-position: 50% 0%;
+    }
+}
+
+#logo {
+    width: 100%;
+
+    img {
         width: 100%;
-        background-color: $darkblue;
+        height: auto;
     }
 }

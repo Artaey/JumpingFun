@@ -3,26 +3,59 @@ body {
   margin: 0px;
 }
 body header {
+  display: flex;
+  align-items: center;
   position: fixed;
-  top: 0;
   right: 0;
   height: 100px;
   width: 100%;
   background-color: #083649;
+  top: 0;
+  flex-flow: column;
+}
+body header h1 {
+  color: #F8F8F8;
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+}
+body header h1 .pink {
+  color: #ec008c;
 }
 body nav {
+  display: flex;
+  align-items: center;
   position: fixed;
-  bottom: 0;
   right: 0;
   height: 100px;
   width: 100%;
   background-color: #083649;
-}/*# sourceMappingURL=jumpingfun.css.map */
+  bottom: 0;
+}
+
+.proimg {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: fixed;
+  z-index: 1;
+  height: 125px;
+  width: 100%;
+}
+.proimg img {
+  height: 50px;
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+  -o-object-position: 50% 0%;
+     object-position: 50% 0%;
+}
 
 #logo {
-  width: 500px; 
+  width: 100%;
 }
 #logo img {
   width: 100%;
   height: auto;
-}
+}/*# sourceMappingURL=jumpingfun.css.map */
