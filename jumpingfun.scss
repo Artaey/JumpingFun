@@ -1,0 +1,25 @@
+$backcolor: #F8F8F8;
+$darkblue: #083649;
+
+body{
+    background-image: url(assets/baggrund.iphone.svg);
+    margin: 0px;
+
+    header{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100px;
+        width: 100%;
+        background-color: $darkblue;
+    }
+
+    nav{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        height: 100px;
+        width: 100%;
+        background-color: $darkblue;
+    }
+}

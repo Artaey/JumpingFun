@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="844" viewBox="0 0 390 844">
+  <defs>
+    <clipPath id="clip-Administration_af_brugere_28">
+      <rect width="390" height="844"/>
+    </clipPath>
+  </defs>
+  <g id="Administration_af_brugere_28" data-name="Administration af brugere – 28" clip-path="url(#clip-Administration_af_brugere_28)">
+    <path id="Polygon_58" data-name="Polygon 58" d="M651,0l651,284H0Z" transform="matrix(-0.961, -0.276, 0.276, -0.961, 689.141, 758.939)" fill="#083649"/>
+    <path id="Polygon_59" data-name="Polygon 59" d="M753,0l753,255.139H0Z" transform="translate(-343.918 393.47) rotate(-8)" fill="#ec008c"/>
+    <g id="Group_62" data-name="Group 62">
+      <g id="Mere_ikon" data-name="Mere ikon" transform="translate(295.95 793.744)">
+        <path id="Path_40" data-name="Path 40" d="M22.013,19.256A2.756,2.756,0,1,1,19.256,16.5,2.756,2.756,0,0,1,22.013,19.256Z" transform="translate(2.794 -16.5)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Path_41" data-name="Path 41" d="M32.513,19.256A2.756,2.756,0,1,1,29.756,16.5,2.756,2.756,0,0,1,32.513,19.256Z" transform="translate(11.587 -16.5)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Path_42" data-name="Path 42" d="M11.513,19.256A2.756,2.756,0,1,1,8.756,16.5,2.756,2.756,0,0,1,11.513,19.256Z" transform="translate(-6 -16.5)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <text id="MERE" transform="translate(306 823)" fill="#fff" font-size="12" font-family="BebasNeue-Regular, Bebas Neue" letter-spacing="0.1em"><tspan x="0" y="0">MERE</tspan></text>
+    </g>
+    <g id="Group_60" data-name="Group 60">
+      <g id="Brugere_ikon" data-name="Brugere ikon" transform="translate(53.75 779.508)">
+        <path id="Icon_material-people" data-name="Icon material-people" d="M31.841,19.7a6.1,6.1,0,1,0-6.068-6.1A6.059,6.059,0,0,0,31.841,19.7Zm-16.182,0a6.1,6.1,0,1,0-6.068-6.1A6.059,6.059,0,0,0,15.659,19.7Zm0,4.067c-4.713,0-14.159,2.379-14.159,7.118v5.084H29.818V30.887C29.818,26.148,20.372,23.769,15.659,23.769Zm16.182,0c-.587,0-1.254.041-1.962.1,2.346,1.708,3.985,4.006,3.985,7.016v5.084H46V30.887C46,26.148,36.554,23.769,31.841,23.769Z" transform="translate(-1.5 -7.5)" fill="#fff"/>
+      </g>
+      <text id="Brugere" transform="translate(56 823)" fill="#fff" font-size="12" font-family="BebasNeue-Regular, Bebas Neue" letter-spacing="0.1em"><tspan x="0" y="0">Brugere</tspan></text>
+    </g>
+  </g>
+</svg>
