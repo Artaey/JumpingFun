@@ -1,6 +1,7 @@
 body {
   background-image: url(assets/baggrund.iphone.svg);
   margin: 0px;
+  background-color: #f8f8f8
 }
 body header {
   position: fixed;
@@ -22,21 +23,40 @@ body nav {
 
 
 /* login side start */
-body#index {background-image: none} 
+  body#index {background-image: none} 
 
-#logo img {
-  width: 80%;
-  height: auto;
-}
+  /* styling af logo start */
+  #logo img {
+    width: 80%;
+    height: auto;
+  }
 
-div{
-  text-align: center;
-  padding-top: 60px;
-}
+  div{
+    text-align: center;
+    padding-top: 60px;
+  }
+  /* styling af logo slut */
 
-h1{
-  text-align: center;
-}
+  h1{
+    text-align: center;
+  }
+
+
+  .index-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .index-flex-container > div {
+    background-color: #ffff;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+  }
 
 
 /* login side slut */
