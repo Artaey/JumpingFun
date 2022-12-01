@@ -16,8 +16,6 @@ body {
       }
       /* styling af logo slut */
 
-
-
 form {border: 3px solid #f1f1f1;}
 
 h1{
@@ -33,7 +31,7 @@ margin: 50px 0;
 
 label{
     color:#F900C4;
-font-style: italic;
+    font-style: bold;
     float: left;
 }
 
