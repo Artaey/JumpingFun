@@ -4,7 +4,13 @@ $darkpink: #ec008c;
 
 :root{
     background-image: url(assets/baggrund.iphone.svg);
-    background-color: $backcolor
+    background-color: $backcolor;
+    color: $backcolor;
+    text-decoration: none;
+    
+    a{
+        color: $backcolor;
+    }
 }
 
 @mixin topbottom {
@@ -24,7 +30,7 @@ body{
         
 
         h1 {
-            color: $backcolor;
+            
             width: 100%;
             text-align: center;
             font-family: sans-serif;
@@ -65,13 +71,9 @@ nav{
     align-items: center;
 
     div{
-        height: 50px;
-        width: 50px;
-        background-color: $backcolor;
-
-        img{
-            width: 100%;
-            height: auto;
+        background-color: $darkblue;
+        a{
+            font-size: 50px;
         }
     }
 }
