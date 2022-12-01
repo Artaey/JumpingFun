@@ -1,16 +1,18 @@
-body {
+:root {
   background-image: url(assets/baggrund.iphone.svg);
+  background-color: #F8F8F8;
+}
+
+body {
   margin: 0px;
-  background-color: #f8f8f8
 }
 body header {
-  align-items: center;
   position: fixed;
-  top: 0;
   right: 0;
   height: 100px;
   width: 100%;
   background-color: #083649;
+  top: 0;
 }
 body header h1 {
   color: #F8F8F8;
@@ -18,17 +20,19 @@ body header h1 {
   text-align: center;
   font-family: sans-serif;
 }
-body header h1 .pink {
-  color: #ec008c;
-}
 body nav {
   position: fixed;
-  bottom: 0;
   right: 0;
   height: 100px;
   width: 100%;
   background-color: #083649;
+  bottom: 0;
 }
+
+.pink {
+  color: #ec008c;
+}
+
 .proimg {
   display: flex;
   justify-content: center;
@@ -47,6 +51,26 @@ body nav {
   -o-object-position: 50% 0%;
      object-position: 50% 0%;
 }
-/*# sourceMappingURL=jumpingfun.css.map */
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav div {
+  height: 50px;
+  width: 50px;
+  background-color: #F8F8F8;
+}
+nav div img {
+  width: 100%;
+  height: auto;
+}
 
+#aarskort {
+  height: 100px;
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 100px;
+  border: 25px solid #083649;
+}/*# sourceMappingURL=jumpingfun.css.map */

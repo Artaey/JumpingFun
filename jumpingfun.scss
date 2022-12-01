@@ -1,25 +1,85 @@
 $backcolor: #F8F8F8;
 $darkblue: #083649;
+$darkpink: #ec008c;
+
+:root{
+    background-image: url(assets/baggrund.iphone.svg);
+    background-color: $backcolor
+}
+
+@mixin topbottom {
+    position: fixed;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    background-color: $darkblue;
+}
 
 body{
-    background-image: url(assets/baggrund.iphone.svg);
     margin: 0px;
 
     header{
-        position: fixed;
+        @include topbottom();
         top: 0;
-        right: 0;
-        height: 100px;
-        width: 100%;
-        background-color: $darkblue;
+        
+
+        h1 {
+            color: $backcolor;
+            width: 100%;
+            text-align: center;
+            font-family: sans-serif;
+        }
     }
 
     nav{
-        position: fixed;
+        @include topbottom();
         bottom: 0;
-        right: 0;
-        height: 100px;
-        width: 100%;
-        background-color: $darkblue;
     }
+}
+
+.pink {
+    color: $darkpink;
+}
+
+.proimg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed;
+    z-index: 1;
+    height: 125px;
+    width: 100%;
+
+    img{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50px;
+        object-position: 50% 0%;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    div{
+        height: 50px;
+        width: 50px;
+        background-color: $backcolor;
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+#aarskort{
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 100px;
+    border: 25px solid $darkblue;
 }
