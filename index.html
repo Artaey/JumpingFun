@@ -9,14 +9,23 @@
 </head>
 <body id="index">
     <div id="logo"> <img src="assets/logojumpingfun.png" alt="JumpingFuns Logo"></div>
-    <h1>Login</h1>
 
-    <div class="index-flex-container">
-        <div>Brugernavn</div>
-        <div>Kodeord</div>
-        <div>Login</div>
-        <div>Opret</div> 
-      </div>
+    <h1>Login</h1>
+    
+  <div class="container">
+    <label for="uname"><b>Brugernavn</b></label>
+    <input type="text" placeholder="Indtast brugernavn" name="uname" required>
+
+    <label for="psw"><b>Kodeord</b></label>
+    <input type="password" placeholder="Indtast kodeord" name="psw" required>
+ 
+    <span class="psw">Glemt <a href="#">kodeord?</a></span>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Husk mig
+    </label>
+  </div>
 
 </body>
 </html>
