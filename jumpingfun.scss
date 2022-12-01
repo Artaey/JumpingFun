@@ -6,14 +6,16 @@ $darkpink: #ec008c;
     background-image: url(assets/baggrund.iphone.svg);
     background-color: $backcolor;
     color: $backcolor;
-    text-decoration: none;
     
     a{
         color: $backcolor;
+        text-decoration: none;
     }
 }
 
 @mixin topbottom {
+    display: flex;
+    align-items: center;
     position: fixed;
     right: 0;
     height: 100px;
@@ -23,24 +25,24 @@ $darkpink: #ec008c;
 
 body{
     margin: 0px;
+    font-family: 'Titillium Web', sans-serif;
 
-    header{
+   
+}
+
+ header{
         @include topbottom();
         top: 0;
         
 
         h1 {
-            
+            margin: 0px;
             width: 100%;
             text-align: center;
-            font-family: sans-serif;
+            width: 600;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 300%
         }
-    }
-
-    nav{
-        @include topbottom();
-        bottom: 0;
-    }
 }
 
 .pink {
@@ -66,14 +68,16 @@ body{
 }
 
 nav{
-    display: flex;
+    @include topbottom();
+    bottom: 0;
     justify-content: space-around;
-    align-items: center;
+    text-align: center;
 
     div{
         background-color: $darkblue;
-        a{
-            font-size: 50px;
+
+        i{
+            font-size: 35px;
         }
     }
 }
@@ -84,4 +88,9 @@ nav{
     margin-top: -50px;
     border-radius: 100px;
     border: 25px solid $darkblue;
+
+    svg{
+        width: 100%;
+        height: auto;
+    }
 }
