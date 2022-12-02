@@ -2,6 +2,17 @@ $backcolor: #F8F8F8;
 $darkblue: #083649;
 $darkpink: #ec008c;
 
+:root{
+    background: $backcolor;
+    color: $backcolor;
+    font-size: 20px;
+
+    a{
+        color: $backcolor;
+        text-decoration: none;
+    }
+}
+
 body{
     font-family: 'Titillium Web', sans-serif;
 }
@@ -12,10 +23,20 @@ body{
 }
 
 .topover{
-    font-size: 45px;
+    font-size: 35px;
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.normaltext{
-    font-size: 20px;
+.navtext{
+    font-size: 15px;
+    font-family: 'Bebas Neue', sans-serif;
 }
+
+.pink {
+    color: $darkpink;
+}
+
+i{
+    font-size: 35px;
+}
+

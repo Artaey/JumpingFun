@@ -1,3 +1,13 @@
+:root {
+  background: #F8F8F8;
+  color: #F8F8F8;
+  font-size: 20px;
+}
+:root a {
+  color: #F8F8F8;
+  text-decoration: none;
+}
+
 body {
   font-family: "Titillium Web", sans-serif;
 }
@@ -8,22 +18,25 @@ body {
 }
 
 .topover {
-  font-size: 45px;
+  font-size: 35px;
   font-family: "Bebas Neue", sans-serif;
 }
 
-.normaltext {
-  font-size: 20px;
+.navtext {
+  font-size: 15px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.pink {
+  color: #ec008c;
+}
+
+i {
+  font-size: 35px;
 }
 
 :root {
   background-image: url(assets/baggrund.iphone.svg);
-  background-color: #F8F8F8;
-  color: #F8F8F8;
-}
-:root a {
-  color: #F8F8F8;
-  text-decoration: none;
 }
 
 body {
@@ -44,12 +57,6 @@ header h1 {
   margin: 0px;
   width: 100%;
   text-align: center;
-  width: 600;
-  font-size: 300%;
-}
-
-.pink {
-  color: #ec008c;
 }
 
 .proimg {
@@ -58,7 +65,7 @@ header h1 {
   align-items: flex-end;
   position: fixed;
   z-index: 1;
-  height: 136px;
+  height: 132px;
   width: 100%;
 }
 .proimg a {
@@ -88,22 +95,17 @@ nav {
   bottom: 0;
   justify-content: space-around;
   text-align: center;
-  font-family: "Bebas Neue", sans-serif;
 }
 nav div {
   background-color: #083649;
-}
-nav div i {
-  font-size: 35px;
 }
 
 #aarskort {
   height: 100px;
   width: 100px;
-  margin-top: -50px;
+  margin-bottom: 70px;
   border-radius: 100px;
   border: 25px solid #083649;
-  font-size: large;
 }
 #aarskort svg {
   width: 100%;

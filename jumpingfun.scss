@@ -5,13 +5,6 @@ $nocardgrad: linear-gradient(0deg, rgba(249,0,196,1) 0%, rgba(8,54,73,1) 100%);
 
 :root{
     background-image: url(assets/baggrund.iphone.svg);
-    background-color: $backcolor;
-    color: $backcolor;
-    
-    a{
-        color: $backcolor;
-        text-decoration: none;
-    }
 }
 
 @mixin topbottom {
@@ -32,18 +25,11 @@ body{
         @include topbottom();
         top: 0;
         
-
         h1 {
             margin: 0px;
             width: 100%;
             text-align: center;
-            width: 600;
-            font-size: 300%
         }
-}
-
-.pink {
-    color: $darkpink;
 }
 
 .proimg{
@@ -52,7 +38,7 @@ body{
     align-items: flex-end;
     position: fixed;
     z-index: 1;
-    height: 136px;
+    height: 132px;
     width: 100%;
 
     a{
@@ -76,24 +62,20 @@ nav{
     bottom: 0;
     justify-content: space-around;
     text-align: center;
-    font-family: 'Bebas Neue', sans-serif;
 
     div{
         background-color: $darkblue;
 
-        i{
-            font-size: 35px;
-        }
+        
     }
 }
 
 #aarskort{
     height: 100px;
     width: 100px;
-    margin-top: -50px;
+    margin-bottom: 70px;
     border-radius: 100px;
     border: 25px solid $darkblue;
-    font-size: large;
 
     svg{
         width: 100%;
