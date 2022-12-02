@@ -1,3 +1,21 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.normalover {
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.topover {
+  font-size: 45px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.normaltext {
+  font-size: 20px;
+}
+
 :root {
   background-image: url(assets/baggrund.iphone.svg);
   background-color: #F8F8F8;
@@ -10,7 +28,6 @@
 
 body {
   margin: 0px;
-  font-family: "Titillium Web", sans-serif;
 }
 
 header {
@@ -28,7 +45,6 @@ header h1 {
   width: 100%;
   text-align: center;
   width: 600;
-  font-family: "Bebas Neue", sans-serif;
   font-size: 300%;
 }
 
@@ -42,10 +58,15 @@ header h1 {
   align-items: flex-end;
   position: fixed;
   z-index: 1;
-  height: 125px;
+  height: 136px;
   width: 100%;
 }
-.proimg img {
+.proimg a {
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #ec008c;
+}
+.proimg a img {
   height: 50px;
   width: 50px;
   -o-object-fit: cover;
@@ -53,6 +74,7 @@ header h1 {
   border-radius: 50px;
   -o-object-position: 50% 0%;
      object-position: 50% 0%;
+  margin-bottom: -5px;
 }
 
 nav {
@@ -66,6 +88,7 @@ nav {
   bottom: 0;
   justify-content: space-around;
   text-align: center;
+  font-family: "Bebas Neue", sans-serif;
 }
 nav div {
   background-color: #083649;
@@ -80,6 +103,7 @@ nav div i {
   margin-top: -50px;
   border-radius: 100px;
   border: 25px solid #083649;
+  font-size: large;
 }
 #aarskort svg {
   width: 100%;
