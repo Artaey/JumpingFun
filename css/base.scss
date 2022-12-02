@@ -1,6 +1,7 @@
 $backcolor: #F8F8F8;
-$darkblue: #083649;
-$darkpink: #ec008c;
+$bluedark: #083649;
+$pinklight: #F900C4;
+$pinkdark: #ec008c;
 
 :root{
     background: $backcolor;
@@ -33,10 +34,18 @@ body{
 }
 
 .pink {
-    color: $darkpink;
+    color: $pinkdark;
 }
 
 i{
     font-size: 35px;
+}
+
+#box{
+    background-color: $backcolor;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    filter: drop-shadow(0px 10px 20px transparentize($bluedark, 0.5));
 }
 
