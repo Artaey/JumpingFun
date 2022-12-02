@@ -1,0 +1,36 @@
+:root {
+  background: #F8F8F8;
+  color: #F8F8F8;
+  font-size: 20px;
+}
+:root a {
+  color: #F8F8F8;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.normalover {
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.topover {
+  font-size: 35px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.navtext {
+  font-size: 15px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.pink {
+  color: #ec008c;
+}
+
+i {
+  font-size: 35px;
+}/*# sourceMappingURL=base.css.map */
