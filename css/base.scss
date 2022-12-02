@@ -23,6 +23,7 @@ body{
 }
 
 .topover{
+    color: $backcolor;
     font-size: 35px;
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -32,12 +33,12 @@ body{
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.pink {
-    color: $pinkdark;
+.navicon{
+    font-size: 35px;
 }
 
-i{
-    font-size: 35px;
+.pink {
+    color: $pinkdark;
 }
 
 #box{

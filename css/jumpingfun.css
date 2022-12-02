@@ -1,6 +1,5 @@
 :root {
   background: #F8F8F8;
-  color: #F8F8F8;
   font-size: 20px;
 }
 :root a {
@@ -18,6 +17,7 @@ body {
 }
 
 .topover {
+  color: #F8F8F8;
   font-size: 35px;
   font-family: "Bebas Neue", sans-serif;
 }
@@ -27,12 +27,12 @@ body {
   font-family: "Bebas Neue", sans-serif;
 }
 
-.pink {
-  color: #ec008c;
+.navicon {
+  font-size: 35px;
 }
 
-i {
-  font-size: 35px;
+.pink {
+  color: #ec008c;
 }
 
 #box {
