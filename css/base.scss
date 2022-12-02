@@ -1,7 +1,8 @@
-$backcolor: #F8F8F8;
+$backcolor: #f8f8f8;
 $bluedark: #083649;
-$pinklight: #F900C4;
+$pinklight: #f900c4;
 $pinkdark: #ec008c;
+$nocardgrad: linear-gradient(0deg, $bluedark 0%, $pinkdark 100%);
 
 :root{
     background: $backcolor;
@@ -27,9 +28,19 @@ body{
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.navtext{
-    font-size: 15px;
+@mixin navtext {
     font-family: 'Bebas Neue', sans-serif;
+    color: $backcolor;
+}
+
+.navtext{
+    @include navtext();
+    font-size: 15px;
+}
+
+.navtextbig{
+    @include navtext();
+    font-size: 20px;
 }
 
 .navicon{
@@ -38,6 +49,10 @@ body{
 
 .pink {
     color: $pinkdark;
+}
+
+#content{
+    margin-top: 120px;
 }
 
 #box{

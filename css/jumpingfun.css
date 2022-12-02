@@ -1,9 +1,8 @@
 :root {
-  background: #F8F8F8;
+  background: #f8f8f8;
   font-size: 20px;
 }
 :root a {
-  color: #F8F8F8;
   text-decoration: none;
 }
 
@@ -17,14 +16,21 @@ body {
 }
 
 .topover {
-  color: #F8F8F8;
+  color: #f8f8f8;
   font-size: 35px;
   font-family: "Bebas Neue", sans-serif;
 }
 
 .navtext {
-  font-size: 15px;
   font-family: "Bebas Neue", sans-serif;
+  color: #f8f8f8;
+  font-size: 15px;
+}
+
+.navtextbig {
+  font-family: "Bebas Neue", sans-serif;
+  color: #f8f8f8;
+  font-size: 20px;
 }
 
 .navicon {
@@ -35,8 +41,12 @@ body {
   color: #ec008c;
 }
 
+#content {
+  margin-top: 120px;
+}
+
 #box {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   border-radius: 20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -59,7 +69,7 @@ header {
   right: 0;
   height: 100px;
   width: 100%;
-  background-color: #083649;
+  background: #083649;
   top: 0;
 }
 header h1 {
@@ -76,10 +86,11 @@ header h1 {
   z-index: 2;
   height: 132px;
   width: 100%;
+  top: 0;
 }
 .proimg a {
   border-radius: 50px;
-  background-color: #ec008c;
+  background: linear-gradient(0deg, #083649 0%, #ec008c 100%);
 }
 .proimg a img {
   height: 50px;
@@ -101,23 +112,37 @@ nav {
   right: 0;
   height: 100px;
   width: 100%;
-  background-color: #083649;
+  background: #083649;
   bottom: 0;
   justify-content: space-around;
   text-align: center;
-}
-nav div {
-  background-color: #083649;
+  margin-bottom: -1px;
 }
 
 #aarskort {
-  height: 100px;
   width: 100px;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   border-radius: 100px;
-  border: 25px solid #083649;
+  border: 20px solid #083649;
+  font-size: 20px;
+  background: #083649;
 }
 #aarskort svg {
   width: 100%;
   height: auto;
+}
+
+#icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#icons .brugericon {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100px;
+  width: 100px;
+  background: black;
+  border-radius: 50px;
 }/*# sourceMappingURL=jumpingfun.css.map */

@@ -1,5 +1,5 @@
 :root {
-  background: #F8F8F8;
+  background: #f8f8f8;
   font-size: 20px;
 }
 :root a {
@@ -16,14 +16,21 @@ body {
 }
 
 .topover {
-  color: #F8F8F8;
+  color: #f8f8f8;
   font-size: 35px;
   font-family: "Bebas Neue", sans-serif;
 }
 
 .navtext {
-  font-size: 15px;
   font-family: "Bebas Neue", sans-serif;
+  color: #f8f8f8;
+  font-size: 15px;
+}
+
+.navtextbig {
+  font-family: "Bebas Neue", sans-serif;
+  color: #f8f8f8;
+  font-size: 20px;
 }
 
 .navicon {
@@ -34,8 +41,12 @@ body {
   color: #ec008c;
 }
 
+#content {
+  margin-top: 120px;
+}
+
 #box {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   border-radius: 20px;
   margin-left: 20px;
   margin-right: 20px;

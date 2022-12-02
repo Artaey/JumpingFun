@@ -1,8 +1,5 @@
 @import "base";
 
-$nocardgrad: linear-gradient(0deg, rgba(249,0,196,1) 0%, rgba(8,54,73,1) 100%);
-
-
 :root{
     background-image: url(../assets/baggrund.iphone.svg);
 }
@@ -15,7 +12,7 @@ $nocardgrad: linear-gradient(0deg, rgba(249,0,196,1) 0%, rgba(8,54,73,1) 100%);
     right: 0;
     height: 100px;
     width: 100%;
-    background-color: $bluedark;
+    background: $bluedark;
 }
 
 body{
@@ -41,10 +38,11 @@ body{
     z-index: 2;
     height: 132px;
     width: 100%;
+    top: 0;
 
     a{
         border-radius: 50px;
-        background-color: $pinkdark;
+        background: $nocardgrad;
 
         img{
         height: 50px;
@@ -63,21 +61,36 @@ nav{
     bottom: 0;
     justify-content: space-around;
     text-align: center;
-
-    div{
-        background-color: $bluedark;
-    }
+    margin-bottom: -1px;
 }
 
 #aarskort{
-    height: 100px;
     width: 100px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     border-radius: 100px;
-    border: 25px solid $bluedark;
+    border: 20px solid $bluedark;
+    font-size: 20px;
+    background: $bluedark;
 
     svg{
         width: 100%;
         height: auto;
+    }
+}
+
+
+#icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .brugericon{
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 100px;
+        width: 100px;
+        background: black;
+        border-radius: 50px;
     }
 }
