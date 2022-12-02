@@ -1,6 +1,7 @@
-$backcolor: #F8F8F8;
-$darkblue: #083649;
-$darkpink: #ec008c;
+@import "base";
+
+$nocardgrad: linear-gradient(0deg, rgba(249,0,196,1) 0%, rgba(8,54,73,1) 100%);
+
 
 :root{
     background-image: url(assets/baggrund.iphone.svg);
@@ -25,9 +26,6 @@ $darkpink: #ec008c;
 
 body{
     margin: 0px;
-    font-family: 'Titillium Web', sans-serif;
-
-   
 }
 
  header{
@@ -40,7 +38,6 @@ body{
             width: 100%;
             text-align: center;
             width: 600;
-            font-family: 'Bebas Neue', sans-serif;
             font-size: 300%
         }
 }
@@ -55,15 +52,22 @@ body{
     align-items: flex-end;
     position: fixed;
     z-index: 1;
-    height: 125px;
+    height: 136px;
     width: 100%;
 
-    img{
+    a{
+        padding: 5px;
+        border-radius: 50px;
+        background-color: $darkpink;
+
+        img{
         height: 50px;
         width: 50px;
         object-fit: cover;
         border-radius: 50px;
-        object-position: 50% 0%;
+        object-position: 50% 0%;;
+        margin-bottom: -5px;
+        }
     }
 }
 
@@ -72,6 +76,7 @@ nav{
     bottom: 0;
     justify-content: space-around;
     text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
 
     div{
         background-color: $darkblue;
@@ -88,6 +93,7 @@ nav{
     margin-top: -50px;
     border-radius: 100px;
     border: 25px solid $darkblue;
+    font-size: large;
 
     svg{
         width: 100%;
