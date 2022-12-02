@@ -1,82 +1,82 @@
 body {
-    margin: 0px;
-    background-color: #f8f8f8;
-    font-family: 'Titillium Web', sans-serif;
-  }
-
-      /* styling af logo start */
-      #logo img {
-        width: 80%;
-        height: auto;
-      }
-
-      div{
-        text-align: center;
-        padding-top: 60px;
-      }
-      /* styling af logo slut */
-
-form {border: 3px solid #f1f1f1;}
-
-h1{
-text-align: center;
-margin-top: 70px;
-font-family: 'Bebas Neue', sans-serif;
+  margin: 0px;
+  background-color: #f8f8f8;
+  font-family: "Titillium Web", sans-serif;
 }
 
-p{
-margin: 80px 0;
-margin-bottom: 0;
+/* styling af logo start */
+#logo img {
+  width: 80%;
+  height: auto;
 }
 
-label{
-    color:#F900C4;
-    font-style: bold;
-    float: left;
+div {
+  text-align: center;
+  padding-top: 60px;
+}
+
+/* styling af logo slut */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 70px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+p {
+  margin: 80px 0;
+  margin-bottom: 0;
+}
+
+label {
+  color: #F900C4;
+  font-style: bold;
+  float: left;
 }
 
 input[type=text], input[type=password] {
-width: 100%;
-padding: 12px 20px;
-margin: 8px 0;
-display: inline-block;
-background: #f8f8f8;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: solid; 
-    border-left-style: none;
-border-bottom-color:#083649;
-box-sizing: border-box;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  background: #f8f8f8;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-bottom-color: #083649;
+  box-sizing: border-box;
 }
 
 button {
-background-color: #F900C4;
-color: white;
-padding: 14px 20px;
-margin: 20px 0;
-border: none;
-border-radius: 30px;
-cursor: pointer;
-width: 100%;
+  background-color: #F900C4;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 100%;
 }
 
 .button2 {
-background-color: #083649;
-width: 30%; 
-} 
-
-button:hover {
-opacity: 0.6;
+  background-color: #083649;
+  width: 30%;
 }
 
+button:hover {
+  opacity: 0.6;
+}
 
 .container {
-padding: 50px;
+  padding: 50px;
 }
 
 span.psw {
-float: right;
+  float: right;
 }
-     
-      
-/* login side slut */
+
+/* login side slut *//*# sourceMappingURL=formular.css.map */
