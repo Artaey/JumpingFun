@@ -64,6 +64,8 @@ body{
 
 #content{
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 #box{
@@ -72,7 +74,6 @@ body{
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    height: 100%;
     filter: drop-shadow(0px 10px 20px transparentize($bluedark, 0.5));
 }
 // side elementer slut

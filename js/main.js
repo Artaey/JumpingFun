@@ -1,20 +1,20 @@
 let up = false;
+pop = document.getElementById("merepop");
 function popup(){
     console.log("bob")
     if (up == false) {
-        pop = document.getElementById("merepop");
+        
         setTimeout(() => {
             pop.style.bottom = "141px";
-        }, 395);
-        pop.animate({"bottom" : "141px"},{duration : 400});
+        }, 195);
+        pop.animate({"bottom" : "141px"},{duration : 200});
         console.log("up");
         up = true;
     }else{
-        pop = document.getElementById("merepop");
-        pop.animate({"bottom" : "0px"},{duration : 400});
         setTimeout(() => {
-            pop.style.bottom = "0px";
-        }, 395);
+            pop.style.bottom = "0px"
+        }, 195);
+        pop.animate({"bottom" : "0px"},{duration : 200});
         console.log("down");
         up = false;
     }
