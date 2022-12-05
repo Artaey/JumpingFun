@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: #f8f8f8;
+    background-color: $backcolor;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -22,15 +22,30 @@ body {
   
   li a {
     display: block;
-    color: #000;
+    color: $bluedark;
     padding: 8px 16px;
     text-decoration: none;
+    font-weight: bold;
   }
   
   li a.active {
-    background-color: #ec008c;
+    background-color: $pinklight;
   }
   
   li a:hover:not(.active) {
     background-color: #555;
   }
+
+
+  /* flexbox for indhold start*/
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* flexbox for indhold slut*/

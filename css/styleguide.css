@@ -108,15 +108,30 @@ ul {
 
 li a {
   display: block;
-  color: #000;
+  color: #083649;
   padding: 8px 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 li a.active {
-  background-color: #ec008c;
+  background-color: #f900c4;
 }
 
 li a:hover:not(.active) {
   background-color: #555;
-}/*# sourceMappingURL=styleguide.css.map */
+}
+
+/* flexbox for indhold start*/
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* flexbox for indhold slut*//*# sourceMappingURL=styleguide.css.map */
