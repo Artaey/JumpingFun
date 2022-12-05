@@ -83,7 +83,7 @@ nav{
     position: fixed;
     bottom: 0;
     right: 0;
-    margin-bottom: -125px;
+    margin-bottom: -266px;
     margin-right: -125px;
     display: flex;
     justify-content: left;
@@ -92,20 +92,20 @@ nav{
     height: 266px;
     border-radius: 250px;
     div{
-        margin-top: 20px;
-        margin-left: 45px;
+        margin-top: 10px;
+        margin-left: 25px;
         display: flex;
         flex-direction: column;
         text-align: right;
 
         a{
             color: $backcolor;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
 
         #X{
-            margin-bottom: 15px;
-            font-size: 20px;
+            margin-bottom: 5px;
+            font-size: 30px;
         }
     }
     
