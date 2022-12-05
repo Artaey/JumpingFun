@@ -27,13 +27,13 @@ body {
   color: #f8f8f8;
   font-size: 35px;
   font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
 }
 
 .navtext {
   font-family: "Bebas Neue", sans-serif;
   color: #f8f8f8;
   font-size: 15px;
-  letter-spacing: 2px;
 }
 
 .navtextbig {
