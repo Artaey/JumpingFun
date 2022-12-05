@@ -72,6 +72,7 @@ button {
   font-family: "Titillium Web", sans-serif;
   font-size: 20px;
   font-weight: bold;
+  letter-spacing: 1px;
   padding: 14px 20px;
   margin: 10px 0;
   border: none;
@@ -91,13 +92,15 @@ button:hover {
   opacity: 0.6;
 }
 
-/* login side start */
+/* Teksten over indtastfelterne start*/
 label {
   color: #ec008c;
   font-style: bold;
+  letter-spacing: 1px;
   float: left;
 }
 
+/* Teksten over indtastfelterne slut*/
 input[type=text], input[type=password] {
   width: 100%;
   padding: 10px 20px;
