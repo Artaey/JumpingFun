@@ -6,7 +6,7 @@ $nocardgrad: linear-gradient(0deg, $bluedark 0%, $pinkdark 100%);
 
 :root{
     background: $backcolor;
-    font-size: 15px;
+    font-size: 20px;
 
     a{
         text-decoration: none;
@@ -19,8 +19,13 @@ body{
     height: 100%;
 }
 
-.normalover{
-    font-size: 30px;
+.mindretekst {
+    font-size: 18px;
+    color: $bluedark;
+}
+
+.overskrift1{
+    font-size: 40px;
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -58,7 +63,6 @@ body{
 }
 
 #box{
-
     background-color: $backcolor;
     border-radius: 20px;
     margin-top: 20px;

@@ -1,6 +1,6 @@
 :root {
   background: #f8f8f8;
-  font-size: 15px;
+  font-size: 20px;
   height: 100%;
 }
 :root a {
@@ -12,8 +12,13 @@ body {
   height: 100%;
 }
 
-.normalover {
-  font-size: 30px;
+.mindretekst {
+  font-size: 18px;
+  color: #083649;
+}
+
+.overskrift1 {
+  font-size: 40px;
   font-family: "Bebas Neue", sans-serif;
 }
 

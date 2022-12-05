@@ -15,31 +15,38 @@
 <body>
     <div id="logo"> <img src="assets/logojumpingfun.png" alt="JumpingFuns Logo"></div>
 
-<h1>Login</h1>
+<h1 class="overskrift1">Login</h1>
     <div class="container">
-      <div id="brugerfelt">
-        <label for="uname"><b>Brugernavn</b></label>
-        <div class="brugerikon">
-        <i class="fa-regular fa-user"></i>
-        <input type="text" placeholder="Indtast brugernavn" name="uname" required>
+
+        <label for="uname"><b>Brugernavn</b></label> <br>
+        
+        <div class="inputicon">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" placeholder="Indtast brugernavn" name="uname" required>
         </div>
+        
+
       
-</div>
-        <label for="psw"><b>Kodeord</b></label>
-        <input type="password" placeholder="Indtast kodeord" name="psw" required>
+        <label for="psw"><b>Kodeord</b></label>  <br>
+
+        <div class="inputicon">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" placeholder="Indtast kodeord" name="psw" required>
+        </div>
+        
      
         <span class="psw"><a href="#">Glemt kodeord?</a></span>
         
-        <label id="husk">
+        <label id="husk" class="mindretekst">
           <input type="checkbox" checked="checked" name="remember"> Husk mig
         </label>
       
         <button type="button">Login</button>
 
-        <p> Opret dig her 
+        <p class="mindretekst"> Opret dig her 
         <br>
     <button class="button button2">Opret</button> </p>
     </div>
-
+    
 </body>
 </html>

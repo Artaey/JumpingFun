@@ -12,28 +12,20 @@ body {
         height: auto;
       }
 
+      
       div{
         text-align: center;
         padding-top: 60px;
       }
+      
+
       /* styling af logo slut */
-
-#brugerfelt {
-  padding: 0px;
-}
-
-.brugerikon {
-  padding-top: 0px;
-  display: flex;
-  align-items: flex-end;
-}
 
 
 h1{
 text-align: center;
 margin-top: 50px;
 margin-bottom: 0px;
-font-family: 'Bebas Neue', sans-serif;
 }
 
 p{
@@ -49,8 +41,6 @@ label{
 
 #husk {
   margin-top: 50px;
-  font-size: 18px;
-  color: $bluedark;
 }
 
 input[type=text], input[type=password] {
@@ -81,6 +71,19 @@ font-size: 15px;
 a {
   color: $bluedark;
 }
-     
+
+
+.inputicon{
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  
+  i{
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 25px;
+    color: $bluedark;
+  }
+}
       
 /* login side slut */

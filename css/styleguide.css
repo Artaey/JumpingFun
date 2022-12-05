@@ -1,6 +1,7 @@
 :root {
-  background: #F8F8F8;
+  background: #f8f8f8;
   font-size: 20px;
+  height: 100%;
 }
 :root a {
   text-decoration: none;
@@ -8,22 +9,35 @@
 
 body {
   font-family: "Titillium Web", sans-serif;
+  height: 100%;
 }
 
-.normalover {
-  font-size: 30px;
+.mindretekst {
+  font-size: 18px;
+  color: #083649;
+}
+
+.overskrift1 {
+  font-size: 40px;
   font-family: "Bebas Neue", sans-serif;
 }
 
 .topover {
-  color: #F8F8F8;
+  color: #f8f8f8;
   font-size: 35px;
   font-family: "Bebas Neue", sans-serif;
 }
 
 .navtext {
-  font-size: 15px;
   font-family: "Bebas Neue", sans-serif;
+  color: #f8f8f8;
+  font-size: 15px;
+}
+
+.navtextbig {
+  font-family: "Bebas Neue", sans-serif;
+  color: #f8f8f8;
+  font-size: 20px;
 }
 
 .navicon {
@@ -34,14 +48,42 @@ body {
   color: #ec008c;
 }
 
+#content {
+  height: 100%;
+}
+
 #box {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   border-radius: 20px;
+  margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  height: 100%;
   filter: drop-shadow(0px 10px 20px rgba(8, 54, 73, 0.5));
 }
 
+/* Log ind start*/
+button {
+  background-color: #F900C4;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button2 {
+  background-color: #083649;
+  width: 30%;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+/* Log ind slut*/
 body {
   margin: 0;
   color: #083649;
