@@ -6,15 +6,17 @@ $nocardgrad: linear-gradient(0deg, $bluedark 0%, $pinkdark 100%);
 
 :root{
     background: $backcolor;
-    font-size: 20px;
+    font-size: 15px;
 
     a{
         text-decoration: none;
     }
+    height: 100%;
 }
 
 body{
     font-family: 'Titillium Web', sans-serif;
+    height: 100%;
 }
 
 .normalover{
@@ -52,14 +54,17 @@ body{
 }
 
 #content{
-    margin-top: 120px;
+    height: 100%;
 }
 
 #box{
+
     background-color: $backcolor;
     border-radius: 20px;
+    margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    height: 100%;
     filter: drop-shadow(0px 10px 20px transparentize($bluedark, 0.5));
 }
 
