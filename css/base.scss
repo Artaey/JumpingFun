@@ -27,6 +27,7 @@ body{
 .overskrift1{
     font-size: 40px;
     font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
 }
 
 .topover{
@@ -73,14 +74,12 @@ body{
     height: 100%;
     filter: drop-shadow(0px 10px 20px transparentize($bluedark, 0.5));
 }
-
 // side elementer slut
 
 /* Log ind start*/
-
 button {
-    background-color: #F900C4;
-    color: white;
+    background-color: $pinklight;
+    color: $backcolor;
     padding: 14px 20px;
     margin: 10px 0;
     border: none;
@@ -90,7 +89,7 @@ button {
     }
     
     .button2 {
-    background-color: #083649;
+    background-color: $bluedark;
     width: 30%; 
     } 
     
