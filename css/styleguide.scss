@@ -31,6 +31,7 @@ body {
   
   li a.active {
     background-color: $pinklight;
+    color:$backcolor;
   }
   
   li a:hover:not(.active) {
