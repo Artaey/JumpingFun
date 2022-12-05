@@ -8,6 +8,7 @@
 }
 
 body {
+  margin: 0px;
   font-family: "Titillium Web", sans-serif;
   height: 100%;
 }
@@ -68,6 +69,10 @@ body {
 button {
   background-color: #f900c4;
   color: #f8f8f8;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
   padding: 14px 20px;
   margin: 10px 0;
   border: none;
@@ -78,6 +83,8 @@ button {
 
 .button2 {
   background-color: #083649;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 15px;
   width: 30%;
 }
 
@@ -85,46 +92,15 @@ button:hover {
   opacity: 0.6;
 }
 
-/* Log ind slut*/
-body {
-  margin: 0px;
-  background-color: #f8f8f8;
-  font-family: "Titillium Web", sans-serif;
-}
-
-/* styling af logo start */
-#logo img {
-  width: 80%;
-  height: auto;
-}
-
-div {
-  text-align: center;
-  padding-top: 60px;
-}
-
-/* styling af logo slut */
-h1 {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 0px;
-}
-
-p {
-  margin: 80px 0;
-  margin-bottom: 0;
-}
-
+/* Teksten over indtastfelterne start*/
 label {
   color: #ec008c;
   font-style: bold;
+  letter-spacing: 1px;
   float: left;
 }
 
-#husk {
-  margin-top: 50px;
-}
-
+/* Teksten over indtastfelterne slut*/
 input[type=text], input[type=password] {
   width: 100%;
   padding: 10px 20px;
@@ -139,19 +115,55 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
+span.psw {
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Glemt kodeord link start*/
+a {
+  color: #083649;
+}
+
+/* Glemt kodeord link slut*/
+.inputicon i {
+  font-size: 25px;
+  color: #083649;
+}
+
+/* Log ind slut*/
+/* styling af logo start */
+#logo img {
+  width: 80%;
+  height: auto;
+}
+
+div {
+  text-align: center;
+  padding-top: 60px;
+}
+
+/* styling af logo slut */
 .container {
   padding: 50px;
   padding-top: 20px;
   padding-bottom: 0px;
 }
 
-span.psw {
-  float: right;
-  font-size: 15px;
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 
-a {
-  color: #083649;
+p {
+  margin: 80px 0;
+  margin-bottom: 0;
+}
+
+#husk {
+  margin-top: 50px;
 }
 
 .inputicon {
@@ -162,8 +174,4 @@ a {
 .inputicon i {
   margin-top: 20px;
   margin-right: 10px;
-  font-size: 25px;
-  color: #083649;
-}
-
-/* login side slut *//*# sourceMappingURL=formular.css.map */
+}/*# sourceMappingURL=formular.css.map */

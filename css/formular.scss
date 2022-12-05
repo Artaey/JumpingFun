@@ -1,26 +1,22 @@
 @import "base";
 
-body {
-margin: 0px;
-background-color: $backcolor;
-font-family: 'Titillium Web', sans-serif;
-}
-
 /* styling af logo start */
 #logo img {
   width: 80%;
   height: auto;
 }
 
-
 div{
   text-align: center;
   padding-top: 60px;
 }
-
-
 /* styling af logo slut */
 
+.container {
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  }
 
 h1{
 text-align: center;
@@ -33,45 +29,9 @@ margin: 80px 0;
 margin-bottom: 0;
 }
 
-label{
-    color:$pinkdark;
-    font-style: bold;
-    float: left;
-}
-
 #husk {
   margin-top: 50px;
 }
-
-input[type=text], input[type=password] {
-width: 100%;
-padding: 10px 20px;
-margin: 8px 0;
-display: inline-block;
-background: $backcolor;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: solid; 
-    border-left-style: none;
-border-bottom-color:$bluedark;
-box-sizing: border-box;
-}
-
-.container {
-padding: 50px;
-padding-top: 20px;
-padding-bottom: 0px;
-}
-
-span.psw {
-float: right;
-font-size: 15px;
-}
-
-a {
-  color: $bluedark;
-}
-
 
 .inputicon{
   padding-top: 0px;
@@ -81,9 +41,6 @@ a {
   i{
     margin-top: 20px;
     margin-right: 10px;
-    font-size: 25px;
-    color: $bluedark;
   }
 }
-      
-/* login side slut */
+
