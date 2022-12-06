@@ -202,4 +202,13 @@ li a:hover:not(.active) {
   width: 100px;
   border-radius: 10%;
   margin: auto;
+}
+
+.farveboks1 {
+  background: #f8f8f8;
+  border: 2px solid #083649;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
 }/*# sourceMappingURL=styleguide.css.map */
