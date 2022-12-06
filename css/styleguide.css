@@ -145,6 +145,10 @@ body {
   height: 1000px;
 }
 
+.farveover {
+  margin-top: 0px;
+}
+
 /* navigation start*/
 ul {
   list-style-type: none;
@@ -181,10 +185,21 @@ li a:hover:not(.active) {
   width: 50%;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.column.right {
+  justify-content: center;
 }
 
-/* flexbox for indhold slut*//*# sourceMappingURL=styleguide.css.map */
+.row {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+/* flexbox for indhold slut*/
+.farveboks {
+  background: #083649;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}/*# sourceMappingURL=styleguide.css.map */

@@ -9,8 +9,11 @@ body {
   margin-left:25%;padding:1px 16px;height:1000px;
   }
   
-/* navigation start*/
+.farveover {
+  margin-top: 0px;
+}
 
+/* navigation start*/
   ul {
     list-style-type: none;
     margin: 0;
@@ -47,9 +50,22 @@ body {
     width: 50%;
   }
 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  .column.right {
+    justify-content: center;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+
   }
   /* flexbox for indhold slut*/
+
+.farveboks {
+  background:$bluedark;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
