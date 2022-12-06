@@ -152,13 +152,13 @@ input[type=text], input[type=password], input[type=number], input[type=date] {
   box-sizing: border-box;
 }
 
+/* Glemt kodeord link start*/
 span.psw {
   float: right;
   font-size: 15px;
   font-weight: bold;
 }
 
-/* Glemt kodeord link start*/
 a {
   color: #083649;
 }
@@ -173,6 +173,7 @@ a {
 body {
   margin: 0;
   color: #083649;
+  font-size: 15px;
 }
 
 #struktur {
@@ -199,6 +200,7 @@ ul {
 li a {
   display: block;
   color: #083649;
+  font-size: 20px;
   padding: 8px 16px;
   text-decoration: none;
   font-weight: bold;

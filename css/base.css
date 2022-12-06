@@ -152,13 +152,13 @@ input[type=text], input[type=password], input[type=number], input[type=date] {
   box-sizing: border-box;
 }
 
+/* Glemt kodeord link start*/
 span.psw {
   float: right;
   font-size: 15px;
   font-weight: bold;
 }
 
-/* Glemt kodeord link start*/
 a {
   color: #083649;
 }
