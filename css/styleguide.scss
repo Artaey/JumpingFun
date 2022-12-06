@@ -35,7 +35,7 @@ body {
   }
   
   li a:hover:not(.active) {
-    background-color: #555;
+    background-color: $bluedark;
     color:$backcolor;
   }
 /* navigation slut*/
