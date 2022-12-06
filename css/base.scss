@@ -64,6 +64,27 @@ body{
     color: $pinkdark;
 }
 
+.proimg{
+    display: flex;
+    justify-content: center;
+    
+    
+    a{
+      border-radius: 50px;
+      background: $nocardgrad;
+    
+      img{
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      border-radius: 50px;
+      object-position: 50% 0%;;
+      margin: 5px;
+      margin-bottom: -3px
+      }
+    }
+    }
+
 #content{
     height: 90%;
     display: flex;

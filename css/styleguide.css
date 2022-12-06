@@ -52,6 +52,26 @@ body {
   color: #ec008c;
 }
 
+.proimg {
+  display: flex;
+  justify-content: center;
+}
+.proimg a {
+  border-radius: 50px;
+  background: linear-gradient(0deg, #083649 0%, #ec008c 100%);
+}
+.proimg a img {
+  height: 50px;
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+  -o-object-position: 50% 0%;
+     object-position: 50% 0%;
+  margin: 5px;
+  margin-bottom: -3px;
+}
+
 #content {
   height: 90%;
   display: flex;
@@ -214,6 +234,7 @@ li a:hover:not(.active) {
 }
 
 /* flexbox for indhold slut*/
+/*colors.html - styling af divboks for farver start*/
 .farveboks {
   background: #083649;
   height: 100px;
@@ -269,4 +290,27 @@ li a:hover:not(.active) {
   width: 100px;
   border-radius: 10%;
   margin: auto;
+}
+
+/*colors.html - styling af divboks for farver slut*/
+/*buttons.html - styling af divboks for farver start*/
+.knapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bruger, #aarskort, #mere {
+  background: #083649;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#bruger a, #aarskort a, #mere a {
+  margin: 5px;
+}
+
+#aarskort {
+  width: 100px;
 }/*# sourceMappingURL=styleguide.css.map */

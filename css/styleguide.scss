@@ -63,6 +63,8 @@ body {
   }
   /* flexbox for indhold slut*/
 
+
+  /*colors.html - styling af divboks for farver start*/
 @mixin farvebox {
   height: 100px;
   width: 100px;
@@ -104,4 +106,28 @@ body {
 .farveboks6 {
   background:$nocardgrad;
   @include farvebox();
+}
+/*colors.html - styling af divboks for farver slut*/
+
+/*buttons.html - styling af divboks for farver start*/
+
+.knapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bruger, #aarskort, #mere {
+  background: $bluedark;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  a {
+    margin: 5px;
+  }
+}
+
+#aarskort {
+  width: 100px;
 }

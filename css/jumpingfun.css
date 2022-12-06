@@ -103,7 +103,7 @@ button {
   background-color: #083649;
   font-family: "Titillium Web", sans-serif;
   font-size: 15px;
-  width: 30%;
+  width: 80px;
 }
 
 button:hover {
@@ -118,7 +118,7 @@ label {
 }
 
 /* Teksten over indtastfelterne slut*/
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=number], input[type=date] {
   width: 100%;
   padding: 10px 20px;
   margin: 8px 0;
@@ -176,8 +176,6 @@ header h1 {
 }
 
 .proimg {
-  display: flex;
-  justify-content: center;
   align-items: flex-end;
   position: fixed;
   z-index: 2;

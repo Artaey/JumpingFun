@@ -52,6 +52,26 @@ body {
   color: #ec008c;
 }
 
+.proimg {
+  display: flex;
+  justify-content: center;
+}
+.proimg a {
+  border-radius: 50px;
+  background: linear-gradient(0deg, #083649 0%, #ec008c 100%);
+}
+.proimg a img {
+  height: 50px;
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+  -o-object-position: 50% 0%;
+     object-position: 50% 0%;
+  margin: 5px;
+  margin-bottom: -3px;
+}
+
 #content {
   height: 90%;
   display: flex;
