@@ -8,6 +8,7 @@
 }
 
 body {
+  margin: 0px;
   font-family: "Titillium Web", sans-serif;
   height: 100%;
 }
@@ -51,17 +52,15 @@ body {
 }
 
 #content {
-  height: 100%;
+  height: 90%;
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 
 #box {
   background-color: #f8f8f8;
   border-radius: 20px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
   filter: drop-shadow(0px 10px 20px rgba(8, 54, 73, 0.5));
 }
 
@@ -69,6 +68,10 @@ body {
 button {
   background-color: #f900c4;
   color: #f8f8f8;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
   padding: 14px 20px;
   margin: 10px 0;
   border: none;
@@ -79,11 +82,52 @@ button {
 
 .button2 {
   background-color: #083649;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 15px;
   width: 30%;
 }
 
 button:hover {
   opacity: 0.6;
+}
+
+/* Teksten over indtastfelterne start*/
+label {
+  color: #ec008c;
+  font-style: bold;
+  float: left;
+}
+
+/* Teksten over indtastfelterne slut*/
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  background: #f8f8f8;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-bottom-color: #083649;
+  box-sizing: border-box;
+}
+
+span.psw {
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Glemt kodeord link start*/
+a {
+  color: #083649;
+}
+
+/* Glemt kodeord link slut*/
+.inputicon i {
+  font-size: 25px;
+  color: #083649;
 }
 
 /* Log ind slut*/
@@ -138,6 +182,14 @@ header h1 {
   margin-bottom: -3px;
 }
 
+#box {
+  box-sizing: content-box;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+
 nav {
   z-index: 1;
   display: flex;
@@ -148,7 +200,7 @@ nav {
   width: 100%;
   background: #083649;
   bottom: 0;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
   margin-bottom: -1px;
 }
@@ -196,13 +248,13 @@ nav {
   font-size: 30px;
 }
 
-#icons {
-  padding-top: 120px;
+.icons {
+  margin-top: 120px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-#icons .brugericon {
+.icons .brugericon {
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
@@ -212,7 +264,7 @@ nav {
   background: black;
   border-radius: 50px;
 }
-#icons .brugernavn {
+.icons .brugernavn {
   text-align: center;
   background: #083649;
   color: #f8f8f8;
@@ -228,4 +280,11 @@ nav {
   border: 5px solid #f8f8f8;
   filter: drop-shadow(0px 2px 3px rgba(8, 54, 73, 0.5));
   line-height: 66%;
+}
+
+#aarsicons {
+  margin-top: 81px;
+  margin-bottom: -20px;
+  height: 600px;
+  overflow-x: scroll;
 }/*# sourceMappingURL=jumpingfun.css.map */

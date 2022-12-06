@@ -65,17 +65,15 @@ body{
 }
 
 #content{
-    height: 100%;
+    height: 90%;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 #box{
     background-color: $backcolor;
     border-radius: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
     filter: drop-shadow(0px 10px 20px transparentize($bluedark, 0.5));
 }
 // side elementer slut
