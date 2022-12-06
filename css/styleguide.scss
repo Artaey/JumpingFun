@@ -47,11 +47,12 @@ body {
   /* flexbox for indhold start*/
   .column {
     float: left;
-    width: 50%;
+    width: 25%;
   }
 
   .column.right {
     justify-content: center;
+    width: 75%;
   }
 
   .row {
@@ -73,6 +74,46 @@ body {
 .farveboks1 {
   background:$backcolor;
   border: 2px solid $bluedark;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.farveboks2 {
+  background:$pinklight;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.farveboks3 {
+  background:$pinkdark;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.farveboks4 {
+  background:$nocardgrad;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.farveboks5 {
+  background:$nocardgrad;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.farveboks6 {
+  background:$nocardgrad;
   height: 100px;
   width: 100px;
   border-radius: 10%;

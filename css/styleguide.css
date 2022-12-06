@@ -182,11 +182,12 @@ li a:hover:not(.active) {
 /* flexbox for indhold start*/
 .column {
   float: left;
-  width: 50%;
+  width: 25%;
 }
 
 .column.right {
   justify-content: center;
+  width: 75%;
 }
 
 .row {
@@ -207,6 +208,46 @@ li a:hover:not(.active) {
 .farveboks1 {
   background: #f8f8f8;
   border: 2px solid #083649;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.farveboks2 {
+  background: #f900c4;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.farveboks3 {
+  background: #ec008c;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.farveboks4 {
+  background: linear-gradient(0deg, #083649 0%, #ec008c 100%);
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.farveboks5 {
+  background: linear-gradient(0deg, #083649 0%, #ec008c 100%);
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.farveboks6 {
+  background: linear-gradient(0deg, #083649 0%, #ec008c 100%);
   height: 100px;
   width: 100px;
   border-radius: 10%;
