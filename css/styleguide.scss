@@ -110,7 +110,6 @@ body {
 /*colors.html - styling af divboks for farver slut*/
 
 /*buttons.html - styling af divboks for farver start*/
-
 .knapper {
   display: flex;
   justify-content: center;
@@ -131,3 +130,10 @@ body {
 #aarskort {
   width: 100px;
 }
+/*buttons.html - styling af divboks for farver slut*/
+
+/*type.html - styling af divboks for skrifttyper start*/
+.typediv{
+  border-top: 3px solid $bluedark;
+}
+

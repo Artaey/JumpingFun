@@ -313,4 +313,10 @@ li a:hover:not(.active) {
 
 #aarskort {
   width: 100px;
+}
+
+/*buttons.html - styling af divboks for farver slut*/
+/*type.html - styling af divboks for skrifttyper start*/
+.typediv {
+  border-top: 3px solid #083649;
 }/*# sourceMappingURL=styleguide.css.map */
