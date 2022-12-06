@@ -48,6 +48,7 @@ body {
   .column {
     float: left;
     width: 25%;
+    padding-right: 50px;
   }
 
   .column.right {
@@ -59,63 +60,48 @@ body {
     display: flex;
     align-items: center;
     padding: 50px;
-
   }
   /* flexbox for indhold slut*/
 
-.farveboks {
-  background:$bluedark;
+@mixin farvebox {
   height: 100px;
   width: 100px;
   border-radius: 10%;
   margin: auto;
+}
+
+.farveboks {
+  background:$bluedark;
+  @include farvebox();
 }
 
 .farveboks1 {
   background:$backcolor;
   border: 2px solid $bluedark;
-  height: 100px;
-  width: 100px;
-  border-radius: 10%;
-  margin: auto;
+  @include farvebox();
 }
 
 .farveboks2 {
   background:$pinklight;
-  height: 100px;
-  width: 100px;
-  border-radius: 10%;
-  margin: auto;
+  @include farvebox();
 }
 
 .farveboks3 {
   background:$pinkdark;
-  height: 100px;
-  width: 100px;
-  border-radius: 10%;
-  margin: auto;
+  @include farvebox();
 }
 
 .farveboks4 {
   background:$nocardgrad;
-  height: 100px;
-  width: 100px;
-  border-radius: 10%;
-  margin: auto;
+  @include farvebox();
 }
 
 .farveboks5 {
   background:$nocardgrad;
-  height: 100px;
-  width: 100px;
-  border-radius: 10%;
-  margin: auto;
+  @include farvebox();
 }
 
 .farveboks6 {
   background:$nocardgrad;
-  height: 100px;
-  width: 100px;
-  border-radius: 10%;
-  margin: auto;
+  @include farvebox();
 }
