@@ -196,6 +196,8 @@ color: $bluedark;
 }
 /* Log ind slut*/
 
+
+// Error håndtering start
 #error {
     color: $errorred;
     font-weight: bold;
@@ -203,4 +205,18 @@ color: $bluedark;
     border-radius: 5px;
     border: 2px solid $errorred;;
     width: 100%;
-  }
+}
+
+.error {
+    input[type=text] {
+        border-color: red;
+    }
+    input[type=password]{
+        border-color: red;
+    }
+    .inputicon i{
+        color: red;
+    }
+} 
+
+// Error håndtering slut

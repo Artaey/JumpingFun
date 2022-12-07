@@ -188,4 +188,14 @@ a {
   border-radius: 5px;
   border: 2px solid red;
   width: 100%;
+}
+
+.error input[type=text] {
+  border-color: red;
+}
+.error input[type=password] {
+  border-color: red;
+}
+.error .inputicon i {
+  color: red;
 }/*# sourceMappingURL=base.css.map */
