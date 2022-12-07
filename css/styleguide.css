@@ -32,6 +32,10 @@ body {
   letter-spacing: 2px;
 }
 
+.pink {
+  color: #ec008c;
+}
+
 .navtext {
   font-family: "Bebas Neue", sans-serif;
   color: #f8f8f8;
@@ -48,8 +52,15 @@ body {
   font-size: 35px;
 }
 
-.pink {
-  color: #ec008c;
+#bruger, #aarskort, #mere {
+  background: #083649;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#bruger a, #aarskort a, #mere a {
+  margin: 5px;
 }
 
 .proimg {
@@ -200,6 +211,7 @@ ul {
 li a {
   display: block;
   color: #083649;
+  background-color: #f8f8f8;
   font-size: 20px;
   padding: 8px 16px;
   text-decoration: none;
@@ -300,17 +312,6 @@ li a:hover:not(.active) {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#bruger, #aarskort, #mere {
-  background: #083649;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-#bruger a, #aarskort a, #mere a {
-  margin: 5px;
 }
 
 #aarskort {

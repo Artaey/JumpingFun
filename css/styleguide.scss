@@ -28,6 +28,7 @@ body {
   li a {
     display: block;
     color: $bluedark;
+    background-color: $backcolor;
     font-size: 20px;
     padding: 8px 16px;
     text-decoration: none;
@@ -116,17 +117,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#bruger, #aarskort, #mere {
-  background: $bluedark;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  a {
-    margin: 5px;
-  }
 }
 
 #aarskort {

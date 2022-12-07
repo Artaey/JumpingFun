@@ -39,6 +39,10 @@ body{
     letter-spacing: 2px;
 }
 
+.pink {
+    color: $pinkdark;
+}
+
 // side elementer start
 
 @mixin navtext {
@@ -60,9 +64,16 @@ body{
     font-size: 35px;
 }
 
-.pink {
-    color: $pinkdark;
-}
+#bruger, #aarskort, #mere {
+    background: $bluedark;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    a {
+      margin: 5px;
+    }
+  }
 
 .proimg{
     display: flex;
