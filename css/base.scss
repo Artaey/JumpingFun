@@ -3,6 +3,7 @@ $bluedark: #083649;
 $pinklight: #f900c4;
 $pinkdark: #ec008c;
 $nocardgrad: linear-gradient(0deg, $bluedark 0%, $pinkdark 100%);
+$errorred:red;
 
 :root{
     background: $backcolor;
@@ -194,3 +195,12 @@ color: $bluedark;
 }
 }
 /* Log ind slut*/
+
+#error {
+    color: $errorred;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid $errorred;;
+    width: 100%;
+  }

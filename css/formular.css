@@ -181,6 +181,15 @@ a {
 }
 
 /* Log ind slut*/
+#error {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid red;
+  width: 100%;
+}
+
 /* styling af logo start */
 #logo img {
   width: 80%;
@@ -225,11 +234,5 @@ p {
 }
 
 #error {
-  color: red;
-  font-weight: bold;
-  font-size: 20px;
   float: left;
-  border-radius: 5px;
-  border: 2px solid red;
-  width: 100%;
 }/*# sourceMappingURL=formular.css.map */

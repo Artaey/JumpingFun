@@ -180,4 +180,12 @@ a {
   color: #083649;
 }
 
-/* Log ind slut*//*# sourceMappingURL=base.css.map */
+/* Log ind slut*/
+#error {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid red;
+  width: 100%;
+}/*# sourceMappingURL=base.css.map */
