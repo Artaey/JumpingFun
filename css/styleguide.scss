@@ -7,7 +7,7 @@ body {
   }
   
   #struktur {
-  margin-left:25%;padding:1px 16px;height:1000px;
+  margin-left:25%;padding:1px 16px;
   }
   
 .farveover {
@@ -135,3 +135,12 @@ body {
   margin-bottom: 50px;
 }
 
+.inputicon{
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  i{
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+}

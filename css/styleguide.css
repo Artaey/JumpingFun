@@ -199,7 +199,6 @@ body {
 #struktur {
   margin-left: 25%;
   padding: 1px 16px;
-  height: 1000px;
 }
 
 .farveover {
@@ -340,4 +339,14 @@ li a:hover:not(.active) {
 .typediv {
   border-top: 3px solid #083649;
   margin-bottom: 50px;
+}
+
+.inputicon {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.inputicon i {
+  margin-top: 20px;
+  margin-right: 10px;
 }/*# sourceMappingURL=styleguide.css.map */

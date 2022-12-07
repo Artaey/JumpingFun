@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styleguide.css">
+    <script src="https://kit.fontawesome.com/f4a342204d.js" crossorigin="anonymous"></script>
     <title>Forms</title>
 </head>
 <body>
@@ -23,30 +24,134 @@
         <div id="struktur">
         <h1>Formularer</h1>
         <div class="typediv"></div>
-        </div>
+
+<h2 class="farveover">Indtastningsfelt - Brugernavn</h2>
             <div class="row">
-                <div class="column">
-                    <button type="button">Login</button>
-                </div>
-                <div class="column right">
-                  <h3 class="farveover">Login knap</h3>
-    <b>html:</b><xmp><button type="button">Login</button></xmp>
-    <b>scss:</b>
-    <xmp>button {
-    background-color: $pinklight;
-    color: $backcolor;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    padding: 8px 20px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    width: 100%;
-    }</xmp>
+                <div class="container">
+                    <label for="uname"><b>Brugernavn</b></label> <br>
+                    <div class="inputicon">
+                      <i class="fa-solid fa-user"></i>
+                      <input type="text" placeholder="Indtast brugernavn" name="uname" required>
+                    </div>
+                    </div>
+                
+                    <div class="column right">
+    <b>html:</b>
+<xmp><label for="uname"><b>Brugernavn</b></label> <br>
+<div class="inputicon">
+    <i class="fa-solid fa-user"></i>
+    <input type="text" placeholder="Indtast brugernavn" name="uname" required>
+</div></xmp>
+
+<b>scss:</b>
+<xmp>label{
+color:$pinkdark;
+font-style: bold;
+float: left;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=date] {
+width: 100%;
+padding: 10px 20px;
+margin: 8px 0;
+display: inline-block;
+background: $backcolor;
+border-top-style: none;
+border-right-style: none;
+border-bottom-style: solid; 
+border-left-style: none;
+border-bottom-color:$bluedark;
+box-sizing: border-box;
+}</xmp>
     </div>
+    </div>
+
+<h2 class="farveover">Indtastningsfelt - Kalender</h2>
+    <div class="row">
+        <div class="container">
+            <label for="bdate"><b>Fødselsdato</b></label>  
+            <br>
+            <div class="inputicon">
+                <i class="fa-solid fa-cake-candles"></i>
+              <input type="date" placeholder="Indtast fødselsdato" name="bdate" required>
+            </div>
+            </div>
+        
+            <div class="column right">
+<b>html:</b>
+<xmp><label for="bdate"><b>Fødselsdato</b></label>  
+    <br>
+    <div class="inputicon">
+        <i class="fa-solid fa-cake-candles"></i>
+      <input type="date" placeholder="Indtast fødselsdato" name="bdate" required>
+</div></xmp>
+
+<b>scss:</b>
+<xmp>label{
+color:$pinkdark;
+font-style: bold;
+float: left;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=date] {
+width: 100%;
+padding: 10px 20px;
+margin: 8px 0;
+display: inline-block;
+background: $backcolor;
+border-top-style: none;
+border-right-style: none;
+border-bottom-style: solid; 
+border-left-style: none;
+border-bottom-color:$bluedark;
+box-sizing: border-box;
+}</xmp>
+</div>
+</div>
+
+<h2 class="farveover">Indtastningsfelt - Fejlmeddelelse</h2>
+            <div class="row">
+                <div class="container">
+                    <label for="uname"><b>Brugernavn</b></label> <br>
+                    <div class="inputicon">
+                      <i class="fa-solid fa-user"></i>
+                      <input type="text" placeholder="Indtast brugernavn" name="uname" required>
+                    </div>
+                    </div>
+                
+                    <div class="column right">
+    <b>html:</b>
+<xmp><label for="uname"><b>Brugernavn</b></label> <br>
+<div class="inputicon">
+    <i class="fa-solid fa-user"></i>
+    <input type="text" placeholder="Indtast brugernavn" name="uname" required>
+</div></xmp>
+
+<b>scss:</b>
+<xmp>label{
+color:$pinkdark;
+font-style: bold;
+float: left;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=date] {
+width: 100%;
+padding: 10px 20px;
+margin: 8px 0;
+display: inline-block;
+background: $backcolor;
+border-top-style: none;
+border-right-style: none;
+border-bottom-style: solid; 
+border-left-style: none;
+border-bottom-color:$bluedark;
+box-sizing: border-box;
+}</xmp>
+    </div>
+    </div>
+
+
+</div>
 
 </body>
 </html>
