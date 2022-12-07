@@ -67,6 +67,19 @@ body {
   /* flexbox for indhold slut*/
 
 
+/* flexbox for navigation.html start*/
+.column.nav {
+  float: left;
+  width: 50%;
+  padding-right: 50px;
+}
+
+.column.right.nav {
+  justify-content: center;
+  width: 50%;
+}
+/* flexbox for navigation.html slut*/
+
   /*colors.html - styling af divboks for farver start*/
 @mixin farvebox {
   height: 100px;
