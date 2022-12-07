@@ -246,7 +246,27 @@ text-align: center;
 
             <div class="column right">
               <h3 class="farveover">Top navigation - Profilknap</h3>
-              <p>Some text..</p>
+<b>html:</b>
+<xmp><div class="proimg">
+    <a>
+        <img src="../assets/mainbruger.jpg" alt="profil image">
+    </a>
+</div></xmp>
+<b>scss:</b>
+<xmp>a{
+    border-radius: 50px;
+    background: $nocardgrad;
+    
+    img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+    object-position: 50% 0%;;
+    margin: 5px;
+    margin-bottom: -3px
+    }
+    }</xmp>
             </div>
         </div>
 
@@ -264,14 +284,33 @@ text-align: center;
             </div>
             <div class="column right">
               <h3 class="farveover">Profil billede - Brugerknap</h3>
-              <p>Some text..</p>
+<b>html:</b>
+<xmp><div class="proimg">
+    <a>
+        <img src="../assets/mainbruger.jpg" alt="profil image">
+    </a>
+</div></xmp>
+<b>scss:</b>
+<xmp>a{
+    border-radius: 50px;
+    background: $nocardgrad;
+    
+    img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+    object-position: 50% 0%;;
+    margin: 5px;
+    margin-bottom: -3px
+    }
+    }</xmp>
                </div>
         </div>
 
         <div class="row">
             <div class="column">
                 <div class="knapper">
-
                     <div class="brugernavn mindretekst">
                         bob
                     </div>
@@ -280,7 +319,26 @@ text-align: center;
             </div>
             <div class="column right">
               <h3 class="farveover">Brugerknap</h3>
-              <p>Some text..</p>
+<b>html:</b>
+<xmp><div class="brugernavn mindretekst">
+        bob
+</div></xmp>
+<b>scss:</b>
+<xmp>.brugernavn{
+text-align: center;
+background: $bluedark;
+color: $backcolor;
+margin: auto;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+width: min-content;
+border-radius: 50px;
+border: 5px solid $backcolor;
+filter: drop-shadow(0px 2px 3px transparentize($bluedark, 0.5));
+line-height: 66%;
+}</xmp>
                </div>
         </div>
 
