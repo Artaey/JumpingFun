@@ -62,7 +62,7 @@ body {
   .row {
     display: flex;
     align-items: center;
-    padding: 50px;
+    padding-bottom: 50px;
   }
   /* flexbox for indhold slut*/
 
@@ -110,6 +110,11 @@ body {
   background:$nocardgrad;
   @include farvebox();
 }
+
+.farveboks7 {
+  background:$errorred;
+  @include farvebox();
+}
 /*colors.html - styling af divboks for farver slut*/
 
 /*buttons.html - styling af divboks for farver start*/
@@ -127,5 +132,6 @@ body {
 /*type.html - styling af divboks for skrifttyper start*/
 .typediv{
   border-top: 3px solid $bluedark;
+  margin-bottom: 50px;
 }
 

@@ -181,6 +181,15 @@ a {
 }
 
 /* Log ind slut*/
+#error {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid red;
+  width: 100%;
+}
+
 body {
   margin: 0;
   color: #083649;
@@ -244,7 +253,7 @@ li a:hover:not(.active) {
 .row {
   display: flex;
   align-items: center;
-  padding: 50px;
+  padding-bottom: 50px;
 }
 
 /* flexbox for indhold slut*/
@@ -306,6 +315,14 @@ li a:hover:not(.active) {
   margin: auto;
 }
 
+.farveboks7 {
+  background: red;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
+
 /*colors.html - styling af divboks for farver slut*/
 /*buttons.html - styling af divboks for farver start*/
 .knapper {
@@ -322,4 +339,5 @@ li a:hover:not(.active) {
 /*type.html - styling af divboks for skrifttyper start*/
 .typediv {
   border-top: 3px solid #083649;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=styleguide.css.map */
