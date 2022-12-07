@@ -215,7 +215,7 @@ body {
   margin-top: 0px;
 }
 
-/* navigation start*/
+/* navigation for styleguide start*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -246,7 +246,9 @@ li a:hover:not(.active) {
   color: #f8f8f8;
 }
 
-/* navigation slut*/
+/* navigation for styleguide slut*/
+/* navigation for navigation.html start*/
+/* navigation for navigation.html slut*/
 /* flexbox for indhold start*/
 .column {
   float: left;
