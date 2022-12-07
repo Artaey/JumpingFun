@@ -32,6 +32,10 @@ body {
   letter-spacing: 2px;
 }
 
+.pink {
+  color: #ec008c;
+}
+
 .navtext {
   font-family: "Bebas Neue", sans-serif;
   color: #f8f8f8;
@@ -48,8 +52,15 @@ body {
   font-size: 35px;
 }
 
-.pink {
-  color: #ec008c;
+#bruger, #aarskort, #mere {
+  background: #083649;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#bruger a, #aarskort a, #mere a {
+  margin: 5px;
 }
 
 .proimg {
@@ -211,4 +222,14 @@ p {
 .inputicon i {
   margin-top: 20px;
   margin-right: 10px;
+}
+
+#error {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  float: left;
+  border-radius: 5px;
+  border: 2px solid red;
+  width: 100%;
 }/*# sourceMappingURL=formular.css.map */
