@@ -10,8 +10,11 @@ body {
   margin-left:25%;padding:1px 16px;
   }
   
+/* overskriften sidder i samme højde som farveboksen på color.hml 
++ overskrifterne sidder tæt på borderbottum i button.html*/
 .farveover {
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* navigation for styleguide start*/
@@ -148,6 +151,11 @@ body {
 .typediv{
   border-top: 3px solid $bluedark;
   margin-bottom: 50px;
+}
+
+.typediv1{
+  border-top: 2px solid $bluedark;
+  margin-bottom:15px;
 }
 
 .inputicon{
