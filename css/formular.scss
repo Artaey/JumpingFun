@@ -27,6 +27,22 @@ justify-content: center;
   padding-bottom: 0px;
   }
 
+/* flexbox for opret.html checkbokse start*/
+.column {
+  float: left;
+  width: 10%;
+}
+
+.column.right {
+  justify-content: center;
+  width: 90%;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+/* flexbox for opret.html checkbokse slut*/
+
 h1{
 text-align: center;
 margin-bottom: 0px;
@@ -39,12 +55,6 @@ margin-bottom: 0;
 
 #husk {
   margin-top: 50px;
-}
-
-
-/* kan findes i opret.html */
-.checkboxdiv {
-  margin-top: 25px;
 }
 
 .inputicon{
