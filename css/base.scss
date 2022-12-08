@@ -46,6 +46,23 @@ body{
 
 // side elementer start
 
+
+.navtext {
+    font-family: "Bebas Neue", sans-serif;
+    color: #f8f8f8;
+    font-size: 15px;
+  }
+  
+  .navtextbig {
+    font-family: "Bebas Neue", sans-serif;
+    color: #f8f8f8;
+    font-size: 20px;
+  }
+  
+  .navicon {
+    font-size: 35px;
+  }
+
 @mixin navtext {
     font-family: 'Bebas Neue', sans-serif;
     color: $backcolor;
