@@ -146,11 +146,127 @@ body {
 /*colors.html - styling af divboks for farver slut*/
 
 /*navigation.html = telefon str. div start*/
+
+@mixin topbottom {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    background: $bluedark;
+}
+
 .navtlf {
   height: 844px;
   width: 390px;
   border: 2px solid $bluedark;
 }
+
+nav{
+  @include topbottom();
+  bottom: 0;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: -1px;
+}
+
+#aarskort{
+  width: 100px;
+  margin-bottom: 40px;
+  border-radius: 100px;
+  border: 20px solid $bluedark;
+  font-size: 20px;
+  background: $bluedark;
+
+  svg{
+      width: 100%;
+      height: auto;
+  }
+}
+
+#merepop{
+  background: $pinkdark;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -266px;
+  margin-right: -125px;
+  display: flex;
+  justify-content: left;
+  justify-items: left;
+  width: 266px;
+  height: 266px;
+  border-radius: 250px;
+  div{
+      margin-top: 10px;
+      margin-left: 25px;
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+
+      a{
+          color: $backcolor;
+          margin-bottom: 5px;
+      }
+
+      #X{
+          margin-bottom: 5px;
+          font-size: 30px;
+      }
+  }
+  
+}
+
+.icons{
+  margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .brugercon{
+      margin-top: 30px;
+  }
+
+  .brugericon{
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background: black;
+  }
+}
+
+.profilicon{
+  margin-top: 80px;
+  .brugericon{
+      height: 120px;
+      width: 120px;
+  }
+      
+}
+
+.iconslille{
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-items: center;
+  margin-top: 200px;
+
+  .brugericon{
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+#aarsicons{
+  margin-top: 81px;
+  margin-bottom: -20px;
+  height: 600px;
+  overflow-y: scroll;
+}
+
 /*navigation.html = telefon str. div slut*/
 
 /*buttons.html - styling af divboks for farver start*/
