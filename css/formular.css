@@ -284,6 +284,12 @@ a {
 }
 
 /* flexbox for opret.html checkbokse slut*/
+/* opret.html knap start*/
+button {
+  margin-top: 20px;
+}
+
+/* opret.html knap slut*/
 h1 {
   text-align: center;
   margin-bottom: 0px;
