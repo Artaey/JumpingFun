@@ -393,6 +393,14 @@ li a:hover:not(.active) {
   margin: auto;
 }
 
+.farveboks9 {
+  background: #000000;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
+
 /*colors.html - styling af divboks for farver slut*/
 /*buttons.html - styling af divboks for farver start*/
 .knapper {
