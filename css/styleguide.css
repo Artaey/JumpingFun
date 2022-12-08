@@ -53,6 +53,22 @@ body {
   font-size: 35px;
 }
 
+.navtext {
+  font-family: "Bebas Neue", sans-serif;
+  color: #f8f8f8;
+  font-size: 15px;
+}
+
+.navtextbig {
+  font-family: "Bebas Neue", sans-serif;
+  color: #f8f8f8;
+  font-size: 20px;
+}
+
+.navicon {
+  font-size: 35px;
+}
+
 #bruger, #aarskort, #mere {
   background: #083649;
   border-radius: 10px;
@@ -205,8 +221,12 @@ span.psw {
 a {
   color: #083649;
 }
-/* Glemt kodeord link slut*/
 
+/* Glemt kodeord link slut*/
+/* ikon styling */
+.inputicon {
+  /* checkbox generel styling */
+}
 .inputicon i {
   font-size: 25px;
   color: #083649;
@@ -404,7 +424,7 @@ li a:hover:not(.active) {
 /*colors.html - styling af divboks for farver slut*/
 /*navigation.html = telefon str. div start*/
 .navtlf {
-  height: 844px;
+  height: 400px;
   width: 390px;
   border: 2px solid #083649;
   display: flex;
