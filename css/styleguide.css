@@ -384,6 +384,14 @@ li a:hover:not(.active) {
   margin: auto;
 }
 
+.farveboks8 {
+  background: #8e8e8e;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  margin: auto;
+}
+
 /*colors.html - styling af divboks for farver slut*/
 /*buttons.html - styling af divboks for farver start*/
 .knapper {
@@ -408,6 +416,8 @@ li a:hover:not(.active) {
   margin-bottom: 15px;
 }
 
+/*type.html - styling af divboks for skrifttyper slut*/
+/* forms.html start */
 .inputicon {
   padding-top: 0px;
   display: flex;
@@ -416,4 +426,6 @@ li a:hover:not(.active) {
 .inputicon i {
   margin-top: 20px;
   margin-right: 10px;
-}/*# sourceMappingURL=styleguide.css.map */
+}
+
+/* forms.html slut *//*# sourceMappingURL=styleguide.css.map */

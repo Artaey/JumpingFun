@@ -130,18 +130,29 @@ width: 80px;
 <div class="typediv1"></div>
         <div class="row">
             <div class="column">
+
                 <div class="knapper">
-                    <i class="fa-solid fa-lock"></i>
+                    <a href="javascript:history.back()" class="tilopret" id="tilbage">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
                 </div>
             </div>
             <div class="column right">
-<b>html:</b><xmp><i class="fa-solid fa-lock"></i></xmp>
+<b>html:</b>
+<xmp><a href="javascript:history.back()" class="tilopret" id="tilbage">
+    <i class="fa-solid fa-arrow-left"></i>
+</a></xmp>
+
 <b>scss:</b>
-<xmp>.button2 {
-background-color: $bluedark;
-font-family: 'Titillium Web', sans-serif;
-font-size: 15px;
-width: 80px; 
+<xmp>#tilbage{
+    background: $bluedark;
+    color: $backcolor;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    line-height: 40px;
+    z-index: 5;
 }</xmp>
 </div>
 </div>

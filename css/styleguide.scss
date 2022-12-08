@@ -133,6 +133,11 @@ body {
   background:$errorred;
   @include farvebox();
 }
+
+.farveboks8 {
+  background:#8e8e8e;
+  @include farvebox();
+}
 /*colors.html - styling af divboks for farver slut*/
 
 /*buttons.html - styling af divboks for farver start*/
@@ -157,7 +162,9 @@ body {
   border-top: 2px solid $bluedark;
   margin-bottom:15px;
 }
+/*type.html - styling af divboks for skrifttyper slut*/
 
+/* forms.html start */
 .inputicon{
   padding-top: 0px;
   display: flex;
@@ -167,3 +174,4 @@ body {
     margin-right: 10px;
   }
 }
+/* forms.html slut */
