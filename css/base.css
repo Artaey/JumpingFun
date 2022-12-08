@@ -79,6 +79,19 @@ body {
   margin: 5px;
 }
 
+#aarskort {
+  width: 100px;
+  margin-bottom: 40px;
+  border-radius: 100px;
+  border: 20px solid #083649;
+  font-size: 20px;
+  background: #083649;
+}
+#aarskort svg {
+  width: 100%;
+  height: auto;
+}
+
 .proimg {
   display: flex;
   justify-content: center;

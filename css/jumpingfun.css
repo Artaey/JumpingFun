@@ -79,6 +79,19 @@ body {
   margin: 5px;
 }
 
+#aarskort {
+  width: 100px;
+  margin-bottom: 40px;
+  border-radius: 100px;
+  border: 20px solid #083649;
+  font-size: 20px;
+  background: #083649;
+}
+#aarskort svg {
+  width: 100%;
+  height: auto;
+}
+
 .proimg {
   display: flex;
   justify-content: center;
@@ -220,8 +233,12 @@ span.psw {
 a {
   color: #083649;
 }
-/* Glemt kodeord link slut*/
 
+/* Glemt kodeord link slut*/
+/* ikon styling */
+.inputicon {
+  /* checkbox generel styling */
+}
 .inputicon i {
   font-size: 25px;
   color: #083649;
@@ -412,19 +429,6 @@ nav {
   justify-content: space-evenly;
   text-align: center;
   margin-bottom: -1px;
-}
-
-#aarskort {
-  width: 100px;
-  margin-bottom: 40px;
-  border-radius: 100px;
-  border: 20px solid #083649;
-  font-size: 20px;
-  background: #083649;
-}
-#aarskort svg {
-  width: 100%;
-  height: auto;
 }
 
 #merepop {
