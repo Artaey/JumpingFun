@@ -28,6 +28,11 @@ body {
   letter-spacing: 2px;
 }
 
+.stortekst {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .pink {
   color: #ec008c;
 }
@@ -559,4 +564,11 @@ nav {
   margin-right: 10px;
 }
 
-/* forms.html slut *//*# sourceMappingURL=styleguide.css.map */
+/* forms.html slut */
+/* validation.html start*/
+#error {
+  display: inline-block;
+  width: 100%;
+}
+
+/* validation.html slut*//*# sourceMappingURL=styleguide.css.map */
