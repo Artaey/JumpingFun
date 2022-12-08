@@ -176,10 +176,13 @@ a {
   color: #083649;
 }
 
+.mindretekst {
+  font-size: 15px;
+}
+
 /* checkbox generel styling */
 .mindretekst {
   font-size: 15px;
-  color: #083649;
 }
 
 /* Log ind slut*/

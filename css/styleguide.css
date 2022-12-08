@@ -177,10 +177,13 @@ a {
   color: #083649;
 }
 
-/* chechbox generel styling */
 .mindretekst {
   font-size: 15px;
-  color: #083649;
+}
+
+/* checkbox generel styling */
+.mindretekst {
+  font-size: 15px;
 }
 
 /* Log ind slut*/
