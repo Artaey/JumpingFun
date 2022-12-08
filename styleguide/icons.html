@@ -243,7 +243,12 @@ text-align: center;
     </div></xmp>
 
 <b>scss:</b>
-<xmp>#bruger, #aarskort, #mere {
+<xmp>.navtextbig{
+    @include navtext();
+    font-size: 20px;
+}
+
+    #bruger, #aarskort, #mere {
 background: $bluedark;
 border-radius: 10px;
 display: flex;
@@ -252,7 +257,22 @@ text-align: center;
     a {
     margin: 5px;
     }
-}</xmp>
+}
+
+#aarskort{
+    width: 100px;
+    margin-bottom: 40px;
+    border-radius: 100px;
+    border: 20px solid $bluedark;
+    font-size: 20px;
+    background: $bluedark;
+
+    svg{
+        width: 100%;
+        height: auto;
+    }
+}
+</xmp>
 
                </div>
         </div>
