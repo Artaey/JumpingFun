@@ -27,6 +27,11 @@ body {
   letter-spacing: 2px;
 }
 
+.stortekst {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .pink {
   color: #ec008c;
 }
@@ -323,6 +328,57 @@ header h1 {
   box-sizing: content-box;
   width: 100%;
   height: 100%;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.aarsind {
+  width: 90%;
+  margin: 20px;
+  margin-left: 21.5%;
+  margin-right: 21.5%;
+  text-align: center;
+}
+.aarsind p {
+  margin: 5px;
+  color: green;
+}
+
+.bruginfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.aarsbrug {
+  margin-left: -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #ec008c;
+}
+
+.aarsnavn {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  margin-top: -13px;
+  color: #083649;
+  line-height: 1em;
+  max-height: 2em;
+}
+
+.spacer {
+  width: 25px;
+}
+
+.qrbox {
+  background: gold;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: -13px;
+  border-radius: 25px;
 }
 
 .info {
