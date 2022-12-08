@@ -180,10 +180,14 @@ opacity: 0.6;
 
     /* Teksten over indtastfelterne start*/
 label{
-color:$pinkdark;
 font-style: bold;
 float: left;
 }
+
+b {
+    color: $pinkdark;
+}
+
     /* Teksten over indtastfelterne slut*/
 
 input[type=text], input[type=password], input[type=number], input[type=date] {
@@ -218,12 +222,8 @@ i{
 font-size: 25px;
 color: $bluedark;
 }
-}    .mindretekst {
-        font-size: 15px;
-    }
-
     /* checkbox generel styling */
-    .mindretekst {
+}    .mindretekst { 
         font-size: 15px;
     }
 
