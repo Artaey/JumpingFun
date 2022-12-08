@@ -21,11 +21,6 @@ body{
     height: 100%;
 }
 
-.mindretekst {
-    font-size: 18px;
-    color: $bluedark;
-}
-
 .overskrift1{
     font-size: 40px;
     font-family: 'Bebas Neue', sans-serif;
@@ -188,12 +183,20 @@ color: $bluedark;
 }
     /* Glemt kodeord link slut*/
 
+    /* ikon styling */
 .inputicon{
 i{
 font-size: 25px;
 color: $bluedark;
 }
 }
+
+    /* chechbox generel styling */
+    .mindretekst {
+        font-size: 18px;
+        color: $bluedark;
+    }
+
 /* Log ind slut*/
 
 

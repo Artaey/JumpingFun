@@ -13,11 +13,6 @@ body {
   height: 100%;
 }
 
-.mindretekst {
-  font-size: 18px;
-  color: #083649;
-}
-
 .overskrift1 {
   font-size: 40px;
   font-family: "Bebas Neue", sans-serif;
@@ -175,8 +170,15 @@ a {
 }
 
 /* Glemt kodeord link slut*/
+/* ikon styling */
 .inputicon i {
   font-size: 25px;
+  color: #083649;
+}
+
+/* chechbox generel styling */
+.mindretekst {
+  font-size: 18px;
   color: #083649;
 }
 
@@ -204,11 +206,12 @@ a {
 #logo img {
   width: 80%;
   height: auto;
+  padding-top: 60px;
 }
 
-div {
-  text-align: center;
-  padding-top: 60px;
+#logo {
+  display: flex;
+  justify-content: center;
 }
 
 /* styling af logo slut */
@@ -220,7 +223,6 @@ div {
 
 h1 {
   text-align: center;
-  margin-top: 50px;
   margin-bottom: 0px;
 }
 
@@ -231,6 +233,15 @@ p {
 
 #husk {
   margin-top: 50px;
+}
+
+.checkboxdiv {
+  float: left;
+  margin-left: 0px;
+}
+
+.checkbox {
+  float: left;
 }
 
 .inputicon {

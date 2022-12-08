@@ -4,12 +4,14 @@
 #logo img {
   width: 80%;
   height: auto;
-}
-
-div{
-  text-align: center;
   padding-top: 60px;
 }
+
+#logo {
+display: flex;
+justify-content: center;
+}
+
 /* styling af logo slut */
 
 .container {
@@ -20,7 +22,6 @@ div{
 
 h1{
 text-align: center;
-margin-top: 50px;
 margin-bottom: 0px;
 }
 
@@ -31,6 +32,15 @@ margin-bottom: 0;
 
 #husk {
   margin-top: 50px;
+}
+
+.checkboxdiv {
+  float: left;
+  margin-left: 0px;
+}
+
+.checkbox {
+    float: left;
 }
 
 .inputicon{
