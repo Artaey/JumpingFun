@@ -43,11 +43,14 @@
                 
                 <div class="column right nav">
     <b>html:</b>
-<xmp><label for="uname"><b>Brugernavn</b></label> <br>
-<div class="inputicon">
-    <i class="fa-solid fa-user"></i>
-    <input type="text" placeholder="Indtast brugernavn" name="uname" required>
-</div></xmp>
+<xmp><form class="error">
+    <label for="uname"><b>Brugernavn</b></label> <br>
+    <div class="inputicon">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="Indtast brugernavn" name="uname" required>
+    </div>
+</form>
+<span id='error'>Forkert brugernavn eller kodeord</span></xmp>
 
 <b>scss:</b>
 <xmp>label{
@@ -68,6 +71,28 @@ border-bottom-style: solid;
 border-left-style: none;
 border-bottom-color:$bluedark;
 box-sizing: border-box;
+}
+
+#error {
+    color: $errorred;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid $errorred;;
+    width: 100%;
+    text-align: center;
+}
+
+.error {
+    input[type=text] {
+        border-color: red;
+    }
+    input[type=password]{
+        border-color: red;
+    }
+    .inputicon i{
+        color: red;
+    }
 }</xmp>
     </div>
     </div>
