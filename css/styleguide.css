@@ -285,8 +285,6 @@ li a:hover:not(.active) {
 }
 
 /* navigation for styleguide slut*/
-/* navigation for navigation.html start*/
-/* navigation for navigation.html slut*/
 /* flexbox for indhold start*/
 .column {
   float: left;
@@ -407,11 +405,22 @@ li a:hover:not(.active) {
   height: 844px;
   width: 390px;
   border: 2px solid #083649;
+  display: flex;
+}
+
+.overskrift2 {
+  text-align: center;
+}
+
+.botnav {
+  align-self: flex-end;
 }
 
 nav {
   z-index: 1;
   display: flex;
+  justify-content: center;
+  align-items: flex-end;
   align-items: center;
   right: 0;
   height: 100px;

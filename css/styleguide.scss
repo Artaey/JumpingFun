@@ -49,9 +49,6 @@ body {
   }
 /* navigation for styleguide slut*/
 
-/* navigation for navigation.html start*/
-/* navigation for navigation.html slut*/
-
 /* flexbox for indhold start*/
   .column {
     float: left;
@@ -146,21 +143,32 @@ body {
 /*colors.html - styling af divboks for farver slut*/
 
 /*navigation.html = telefon str. div start*/
+.navtlf {
+  height: 844px;
+  width: 390px;
+  border: 2px solid $bluedark;
+  display: flex;
+}
+
+.overskrift2 {
+  text-align: center;
+}
+
+.botnav {
+  align-self: flex-end;
+
+}
 
 @mixin topbottom {
     z-index: 1;
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
     align-items: center;
     right: 0;
     height: 100px;
     width: 100%;
     background: $bluedark;
-}
-
-.navtlf {
-  height: 844px;
-  width: 390px;
-  border: 2px solid $bluedark;
 }
 
 nav{
