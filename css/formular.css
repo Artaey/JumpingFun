@@ -178,7 +178,7 @@ a {
 
 /* chechbox generel styling */
 .mindretekst {
-  font-size: 18px;
+  font-size: 15px;
   color: #083649;
 }
 
@@ -235,13 +235,9 @@ p {
   margin-top: 50px;
 }
 
+/* kan findes i opret.html */
 .checkboxdiv {
-  float: left;
-  margin-left: 0px;
-}
-
-.checkbox {
-  float: left;
+  margin-top: 25px;
 }
 
 .inputicon {
