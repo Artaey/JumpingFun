@@ -109,6 +109,20 @@ body {
   line-height: 66%;
 }
 
+#tilbage {
+  background: #083649;
+  color: #f8f8f8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  line-height: 40px;
+  z-index: 5;
+}
+
 /* Log ind start*/
 button {
   background-color: #f900c4;
@@ -215,6 +229,11 @@ a {
 }
 
 /* styling af logo slut */
+.tilopret {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
 .container {
   padding: 50px;
   padding-top: 20px;
@@ -248,6 +267,11 @@ p {
 .inputicon i {
   margin-top: 20px;
   margin-right: 10px;
+  width: 20px;
+}
+.inputicon svg {
+  width: 12px;
+  height: auto;
 }
 
 #error {

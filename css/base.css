@@ -109,6 +109,36 @@ body {
   line-height: 66%;
 }
 
+#tilbage {
+  background: #083649;
+  color: #f8f8f8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  line-height: 40px;
+  z-index: 5;
+}
+
+.brugerinfo {
+  color: #083649;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 2px solid #083649;
+}
+.brugerinfo i {
+  margin-right: 20px;
+}
+.brugerinfo svg {
+  transform: scale(0.8);
+  margin-bottom: -5px;
+  margin-left: -3px;
+  margin-right: 15px;
+}
+
 /* Log ind start*/
 button {
   background-color: #f900c4;
