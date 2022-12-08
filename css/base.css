@@ -165,6 +165,7 @@ button:hover {
 
 /* Teksten over indtastfelterne start*/
 label {
+  color: #083649;
   font-style: bold;
   float: left;
 }
