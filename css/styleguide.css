@@ -409,6 +409,8 @@ li a:hover:not(.active) {
 }
 
 .overskrift2 {
+  margin: 0px;
+  width: 100%;
   text-align: center;
 }
 

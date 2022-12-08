@@ -151,8 +151,10 @@ body {
 }
 
 .overskrift2 {
-  text-align: center;
-}
+      margin: 0px;
+      width: 100%;
+      text-align: center;
+  }
 
 .botnav {
   align-self: flex-end;
