@@ -25,7 +25,7 @@
         <h1>Ikoner</h1>
         <div class="typediv"></div>
         
-<h2>Ikoner fra "Opret bruger" </h2>
+<h2>Ikoner fra opret.html</h2>
 <h2 class="farveover">Bruger</h2>
 <div class="typediv1"></div>
         <div class="row">
@@ -118,37 +118,6 @@
     font-size: 25px;
     color: $bluedark;
     }</xmp>
-</div>
-</div>
-
-<h2 class="farveover">Tilbageknap</h2>
-<div class="typediv1"></div>
-        <div class="row">
-            <div class="column">
-
-                <div class="knapper">
-                    <a href="javascript:history.back()" class="tilopret" id="tilbage">
-                        <i class="fa-solid fa-arrow-left"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="column right">
-<b>html:</b>
-<xmp><a href="javascript:history.back()" class="tilopret" id="tilbage">
-    <i class="fa-solid fa-arrow-left"></i>
-</a></xmp>
-
-<b>scss:</b>
-<xmp>#tilbage{
-    background: $bluedark;
-    color: $backcolor;
-    text-align: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 100px;
-    line-height: 40px;
-    z-index: 5;
-}</xmp>
 </div>
 </div>
 
@@ -279,8 +248,8 @@ text-align: center;
 }
 </xmp>
 
-               </div>
-        </div>
+</div>
+</div>
 
 <h2 class="farveover">Mere</h2>
 <div class="typediv1"></div>
@@ -326,36 +295,67 @@ text-align: center;
                </div>
         </div>
 
-<h2 class="farveover">Tilføj bruger knap</h2>
+<h2>Ikoner fra profil.html</h2>
+<h2 class="farveover">Tilbage</h2>
 <div class="typediv1"></div>
-<div class="row">
-    <div class="column">
-        <div id="content">
-            <a href="#" class="nybruger">
-                +
-            </a>
-        </div>
-        </div>
-    <div class="column right">
+        <div class="row">
+            <div class="column">
+                <div class="knapper">
+                    <a href="javascript:history.back()" class="tilopret" id="tilbage">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+
+                </div>
+            </div>
+<div class="column right">
 <b>html:</b>
-<xmp><a href="#" class="nybruger">
-    +
+<xmp><a href="javascript:history.back()" class="tilopret" id="tilbage">
+    <i class="fa-solid fa-arrow-left"></i>
 </a></xmp>
 <b>scss:</b>
-<xmp>.nybruger{
-    background: $pinklight;
-    height: 100px;
-    width: 100px;
-    text-align: center;
+<xmp>#tilbage{
+    background: $bluedark;
     color: $backcolor;
-    border-radius: 50%;
-    line-height: 78px;
-    font-size: 100px;
-    margin: auto;
-    margin-top: 0px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    line-height: 40px;
+    z-index: 5;
 }</xmp>
 </div>
 </div>
 
+<h2 class="farveover">Log ud</h2>
+<div class="typediv1"></div>
+        <div class="row">
+            <div class="column">
+                <div class="knapper">
+                    <a id="logout" href="#">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </a>
+                </div>
+            </div>
+<div class="column right">
+<b>html:</b>
+<xmp><a id="logout" href="#">
+    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+</a></xmp>
+<b>scss:</b>
+<xmp>#logout{
+    color: $backcolor;
+    background: $errorred;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    line-height: 40px;
+    z-index: 5;
+}</xmp>
+</div>
+</div>
+
+
+</div>
 </body>
 </html>
