@@ -26,6 +26,29 @@
         <div class="typediv"></div>
         
 <h2>Knapper på login-siden</h2>
+<h2 class="farveover">Glemt kodeord - knap</h2>
+<div class="typediv1"></div>
+        <div class="row">
+            <div class="column">
+                <div class="knapper">
+                    <span class="psw"><a href="#">Glemt kodeord?</a></span>
+                </div>
+            </div>
+            <div class="column right">
+<b>html:</b><xmp><span class="psw"><a href="#">Glemt kodeord?</a></span></xmp>
+<b>scss:</b>
+<xmp>span.psw {
+float: right;
+font-size: 15px;
+font-weight: bold;
+}
+
+a {
+color: $bluedark;
+}</xmp>
+</div>
+</div>
+
 <h2 class="farveover">Login knap</h2>
 <div class="typediv1"></div>
         <div class="row">
@@ -72,31 +95,48 @@ width: 80px;
 </div>
 </div>
 
-<h2 class="farveover">Glemt kodeord - knap</h2>
+<h2>Navigationsknapper</h2>
+<h2 class="farveover">Top navigation - Profilknap</h2>
 <div class="typediv1"></div>
         <div class="row">
             <div class="column">
                 <div class="knapper">
-                    <span class="psw"><a href="#">Glemt kodeord?</a></span>
+                    <div class="proimg">
+                        <a>
+                            <img src="../assets/mainbruger.jpg" alt="profil image">
+                        </a>
+                    </div>
+
                 </div>
             </div>
+
             <div class="column right">
-<b>html:</b><xmp><span class="psw"><a href="#">Glemt kodeord?</a></span></xmp>
+<b>html:</b>
+<xmp><div class="proimg">
+    <a>
+        <img src="../assets/mainbruger.jpg" alt="profil image">
+    </a>
+</div></xmp>
 <b>scss:</b>
-<xmp>span.psw {
-float: right;
-font-size: 15px;
-font-weight: bold;
-}
+<xmp>a{
+    border-radius: 50px;
+    background: $nocardgrad;
+    
+    img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+    object-position: 50% 0%;;
+    margin: 5px;
+    margin-bottom: -3px
+    }
+    }</xmp>
+            </div>
+        </div>
 
-a {
-color: $bluedark;
-}</xmp>
-</div>
-</div>
 
-<h2>Navigationsknapper</h2>
-<h2 class="farveover">Navigationsknap - Bruger</h2>
+<h2 class="farveover">Bund navigationsknap - Bruger</h2>
 <div class="typediv1"></div>
         <div class="row">
             <div class="column">
@@ -132,7 +172,7 @@ text-align: center;
                </div>
         </div>
 
-<h2 class="farveover">Navigationsknap - Årskort</h2>
+<h2 class="farveover">Bund navigationsknap - Årskort</h2>
 <div class="typediv1"></div>
         <div class="row">
             <div class="column">
@@ -200,7 +240,7 @@ text-align: center;
                </div>
         </div>
 
-<h2 class="farveover">Navigationsknap - Mere</h2>
+<h2 class="farveover">Bund navigationsknap - Mere</h2>
 <div class="typediv1"></div>
         <div class="row">
             <div class="column">
@@ -237,45 +277,6 @@ text-align: center;
     }
 }</xmp>
                </div>
-        </div>
-
-<h2 class="farveover">Top navigation - Profilknap</h2>
-<div class="typediv1"></div>
-        <div class="row">
-            <div class="column">
-                <div class="knapper">
-                    <div class="proimg">
-                        <a>
-                            <img src="../assets/mainbruger.jpg" alt="profil image">
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="column right">
-<b>html:</b>
-<xmp><div class="proimg">
-    <a>
-        <img src="../assets/mainbruger.jpg" alt="profil image">
-    </a>
-</div></xmp>
-<b>scss:</b>
-<xmp>a{
-    border-radius: 50px;
-    background: $nocardgrad;
-    
-    img{
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
-    border-radius: 50px;
-    object-position: 50% 0%;;
-    margin: 5px;
-    margin-bottom: -3px
-    }
-    }</xmp>
-            </div>
         </div>
 
         <h2>Knapper fra brugere.html </h2>
