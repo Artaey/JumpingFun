@@ -278,80 +278,6 @@ text-align: center;
             </div>
         </div>
 
-<h2 class="farveover">Profil billede - Brugerknap</h2>
-<div class="typediv1"></div>
-        <div class="row">
-            <div class="column">
-                <div class="knapper">
-
-                    <div class="proimg">
-                        <a>
-                            <img src="../assets/mainbruger.jpg" alt="profil image">
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-            <div class="column right">
-<b>html:</b>
-<xmp><div class="proimg">
-    <a>
-        <img src="../assets/mainbruger.jpg" alt="profil image">
-    </a>
-</div></xmp>
-<b>scss:</b>
-<xmp>a{
-    border-radius: 50px;
-    background: $nocardgrad;
-    
-    img{
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
-    border-radius: 50px;
-    object-position: 50% 0%;;
-    margin: 5px;
-    margin-bottom: -3px
-    }
-    }</xmp>
-               </div>
-        </div>
-
-<h2 class="farveover">Brugerknap</h2>
-<div class="typediv1"></div>
-        <div class="row">
-            <div class="column">
-                <div class="knapper">
-                    <div class="brugernavn mindretekst">
-                        bob
-                    </div>
-
-                </div>
-            </div>
-            <div class="column right">
-<b>html:</b>
-<xmp><div class="brugernavn mindretekst">
-        bob
-</div></xmp>
-<b>scss:</b>
-<xmp>.brugernavn{
-text-align: center;
-background: $bluedark;
-color: $backcolor;
-margin: auto;
-padding-left: 10px;
-padding-right: 10px;
-padding-top: 5px;
-padding-bottom: 5px;
-width: min-content;
-border-radius: 50px;
-border: 5px solid $backcolor;
-filter: drop-shadow(0px 2px 3px transparentize($bluedark, 0.5));
-line-height: 66%;
-}</xmp>
-               </div>
-        </div>
-
 <h2 class="farveover">Tilbageknap</h2>
 <div class="typediv1"></div>
         <div class="row">
@@ -385,6 +311,119 @@ filter: drop-shadow(0px 2px 3px transparentize($bluedark, 0.5));
 line-height: 66%;
 }</xmp>
                 </div>
+        </div>
+
+        <h2>Ikoner fra "Brugere" </h2>
+        <h2 class="farveover">Profil bruger</h2>
+        <div class="typediv1"></div>
+        
+                <div class="row">
+                    <div class="column">
+                        <div class="knapper">
+                        <div class="proimg" id="probrug">
+                            <a href="profil.html">
+                                <img src="../assets/mainbruger.jpg" alt="profil image">
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="column right">
+        <b>html:</b>
+        <xmp><div class="proimg" id="probrug">
+            <a href="profil.html">
+                <img src="assets/mainbruger.jpg" alt="profil image">
+            </a>
+        </div></xmp>
+        <b>scss:</b>
+        <xmp>.proimg{
+            a{
+                border-radius: 50%;
+                background: $nocardgrad;
+        
+                img{
+                height: 50px;
+                width: 50px;
+                object-fit: cover;
+                border-radius: 50%;
+                object-position: 50% 0%;;
+                margin: 5px;
+                margin-bottom: -3px
+                }
+            }
+        }
+        
+        #probrug{
+            a{
+                img{
+                    margin: 10px;
+                    margin-bottom: 2px;
+                    height: 120px;
+                    width: 120px;
+                }
+            }
+            
+        }</xmp>
+        </div>
+        </div>
+        
+        <h2 class="farveover">Børne brugere</h2>
+        <div class="typediv1"></div>
+        
+                <div class="row">
+                    <div class="column">
+                        <div class="knapper">
+                        <div class="icons iconslille">
+                            <div class="brugericon">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="column right">
+        <b>html:</b>
+<xmp><div class="icons iconslille">
+    <div class="brugericon">
+    </div>
+</div></xmp>
+        <b>scss:</b>
+        <xmp>.brugericon{
+            background: black;
+        }</xmp>
+        </div>
+        </div>
+
+        <h2 class="farveover">Brugerknap</h2>
+<div class="typediv1"></div>
+        <div class="row">
+            <div class="column">
+                <div class="knapper">
+                    <div class="brugernavn mindretekst">
+                        bob
+                    </div>
+
+                </div>
+            </div>
+            <div class="column right">
+<b>html:</b>
+<xmp><div class="brugernavn mindretekst">
+        bob
+</div></xmp>
+<b>scss:</b>
+<xmp>.brugernavn{
+text-align: center;
+background: $bluedark;
+color: $backcolor;
+margin: auto;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+width: min-content;
+border-radius: 50px;
+border: 5px solid $backcolor;
+filter: drop-shadow(0px 2px 3px transparentize($bluedark, 0.5));
+line-height: 66%;
+}</xmp>
+               </div>
         </div>
 
 </body>

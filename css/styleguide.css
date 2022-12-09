@@ -203,6 +203,10 @@ body {
   width: 120px;
 }
 
+.brugericon {
+  background: black;
+}
+
 /* Log ind start*/
 button {
   background-color: #f900c4;
@@ -545,7 +549,6 @@ nav {
 }
 
 .icons {
-  margin-top: 120px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -560,7 +563,6 @@ nav {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background: black;
 }
 
 .profilicon {
@@ -575,7 +577,6 @@ nav {
   flex-wrap: nowrap;
   flex-direction: column;
   justify-items: center;
-  margin-top: 200px;
 }
 .iconslille .brugericon {
   margin-left: auto;
