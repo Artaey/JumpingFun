@@ -289,10 +289,7 @@ a {
 }
 
 /* Glemt kodeord link slut*/
-/* ikon styling */
-.inputicon {
-  /* checkbox generel styling */
-}
+
 .inputicon i {
   font-size: 25px;
   color: #083649;
@@ -507,9 +504,8 @@ li a:hover:not(.active) {
 /*navigation.html = telefon str. div start*/
 .navtlf {
   height: 400px;
-  width: 390px;
+  width: 300px;
   border: 2px solid #083649;
-  display: flex;
 }
 
 .overskrift2 {
