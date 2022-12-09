@@ -127,9 +127,15 @@ body {
 }
 
 .farveboks6 {
-  background:$nocardgrad;
+  background:$bronzegrad;
   @include farvebox();
 }
+
+.farveboks6a {
+  background:$bronzeradial;
+  @include farvebox();
+}
+
 
 .farveboks7 {
   background:$errorred;

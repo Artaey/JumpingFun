@@ -5,8 +5,8 @@ $pinkdark: #ec008c;
 $nocardgrad: linear-gradient(0deg, $bluedark 0%, $pinkdark 100%);
 $goldgrad: linear-gradient(0deg, rgba(117,99,0,1) 0%, rgba(255,215,0,1) 60%, rgba(255,237,138,1) 100%);
 $goldradial: radial-gradient(circle, rgb(255, 249, 214) 0%, rgb(255, 215, 0) 45%, rgb(117, 99, 0) 100%);
-$bronzegrad: linear-gradient(0deg, rgba(85,60,16,1) 0%, rgba(201,141,38,1) 60%, rgba(234,200,143,1) 100%);
-$bronzeradial:linear-gradient(0deg, rgba(85,60,16,1) 0%, rgba(201,141,38,1) 60%, rgba(234,200,143,1) 100%);
+$bronzegrad: linear-gradient(180deg, rgba(255,153,72,1) 0%, rgba(255,115,0,1) 45%, rgba(94,43,0,1) 100%);
+$bronzeradial: radial-gradient(circle, rgba(255,153,72,1) 0%, rgba(255,115,0,1) 45%, rgba(94,43,0,1) 100%);
 
 $errorred:red;
 
