@@ -82,6 +82,16 @@ body {
 }
 /* flexbox for navigation.html slut*/
 
+/* flexbox for background.html start*/
+.divcenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* flexbox for background.html slut*/
+
+
   /*colors.html - styling af divboks for farver start*/
 @mixin farvebox {
   height: 100px;
