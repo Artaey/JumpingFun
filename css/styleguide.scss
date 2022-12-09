@@ -117,7 +117,12 @@ body {
 }
 
 .farveboks5 {
-  background:$nocardgrad;
+  background:$goldgrad;
+  @include farvebox();
+}
+
+.farveboks5a {
+  background:$goldradial;
   @include farvebox();
 }
 

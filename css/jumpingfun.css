@@ -420,7 +420,7 @@ header h1 {
 }
 
 .qrbox {
-  background: linear-gradient(0deg, rgb(117, 99, 0) 0%, rgb(255, 215, 0) 60%, rgb(255, 237, 138) 100%);
+  background: radial-gradient(circle, rgb(255, 249, 214) 0%, rgb(255, 215, 0) 45%, rgb(117, 99, 0) 100%);
   width: 200px;
   height: 200px;
   margin: auto;
