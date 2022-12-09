@@ -34,18 +34,15 @@ header {
     right: 0;
     height: 100px;
     width: 100%;
-    background: #083649;
-    top: 0;
-    
-    @include topbottom();
-    top: 0;
-    
+    background:$bluedark;
+    top: 0;  
+}  
     h1 {
         margin: 0px;
         width: 100%;
         text-align: center;
     }
-}
+
 
 .overskrift1{
     font-size: 40px;
