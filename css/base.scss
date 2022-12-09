@@ -198,6 +198,17 @@ body{
     margin-top: 0px;
 }
 
+#logout{
+    color: $backcolor;
+    background: $errorred;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    line-height: 40px;
+    z-index: 5;
+}
+
 // side elementer slut
 
 /* Log ind start*/

@@ -183,6 +183,17 @@ body {
   margin-top: 0px;
 }
 
+#logout {
+  color: #f8f8f8;
+  background: red;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  line-height: 40px;
+  z-index: 5;
+}
+
 /* Log ind start*/
 button {
   background-color: #f900c4;
