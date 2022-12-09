@@ -55,8 +55,8 @@
     <div id="content">
         <div class="icons profilicon">
             <div class="brugercon">
-                <div class="brugericon">
-
+                <div id="proicon" class="brugericon">
+                    <img src="assets/mainbruger.jpg" alt="profil image">
                 </div>
                 <div class="brugernavn mindretekst">
                     <?php

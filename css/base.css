@@ -195,6 +195,23 @@ body {
   margin-bottom: -3px;
 }
 
+#proicon {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background: linear-gradient(0deg, #083649 0%, #ec008c 100%);
+}
+#proicon img {
+  height: 100px;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  -o-object-position: 50% 0%;
+     object-position: 50% 0%;
+  margin: auto;
+}
+
 #probrug a img {
   margin: 10px;
   margin-bottom: 2px;

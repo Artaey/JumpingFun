@@ -216,6 +216,21 @@ body{
     }
 }
 
+#proicon{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background: $nocardgrad;
+    img{
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: 50% 0%;
+        margin: auto;
+        }
+}
+
 #probrug{
     a{
         img{
