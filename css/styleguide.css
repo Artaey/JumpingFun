@@ -171,6 +171,53 @@ body {
   margin-right: 15px;
 }
 
+.nybruger {
+  background: #f900c4;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  color: #f8f8f8;
+  border-radius: 50%;
+  line-height: 78px;
+  font-size: 100px;
+  margin: auto;
+  margin-top: 0px;
+}
+
+#logout {
+  color: #f8f8f8;
+  background: red;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  line-height: 40px;
+  z-index: 5;
+}
+
+.proimg a {
+  border-radius: 50%;
+  background: linear-gradient(0deg, #083649 0%, #ec008c 100%);
+}
+.proimg a img {
+  height: 50px;
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  -o-object-position: 50% 0%;
+     object-position: 50% 0%;
+  margin: 5px;
+  margin-bottom: -3px;
+}
+
+#probrug a img {
+  margin: 10px;
+  margin-bottom: 2px;
+  height: 120px;
+  width: 120px;
+}
+
 /* Log ind start*/
 button {
   background-color: #f900c4;

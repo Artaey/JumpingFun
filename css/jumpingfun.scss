@@ -37,26 +37,10 @@ body{
     height: 132px;
     width: 100%;
     top: 0;
-
-    a{
-        border-radius: 50%;
-        background: $nocardgrad;
-
-        img{
-        height: 50px;
-        width: 50px;
-        object-fit: cover;
-        border-radius: 50%;
-        object-position: 50% 0%;;
-        margin: 5px;
-        margin-bottom: -3px
-        }
-    }
 }
 
 #probrug{
     height: 212px;
-    
 }
 
 #tilbage{
