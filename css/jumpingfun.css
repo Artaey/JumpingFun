@@ -194,6 +194,13 @@ body {
   z-index: 5;
 }
 
+#probrug a img {
+  margin: 10px;
+  margin-bottom: 2px;
+  height: 120px;
+  width: 120px;
+}
+
 /* Log ind start*/
 button {
   background-color: #f900c4;
@@ -344,12 +351,6 @@ header h1 {
 
 #probrug {
   height: 212px;
-}
-#probrug a img {
-  margin: 10px;
-  margin-bottom: 2px;
-  height: 120px;
-  width: 120px;
 }
 
 #tilbage {

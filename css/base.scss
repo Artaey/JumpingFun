@@ -209,6 +209,19 @@ body{
     z-index: 5;
 }
 
+// brugere.html - styling af det store profilbillede 
+#probrug{
+    a{
+        img{
+            margin: 10px;
+            margin-bottom: 2px;
+            height: 120px;
+            width: 120px;
+        }
+    }
+    
+}
+
 // side elementer slut
 
 /* Log ind start*/
