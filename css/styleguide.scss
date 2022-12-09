@@ -80,6 +80,12 @@ body {
   justify-content: center;
   width: 50%;
 }
+
+.navtlf {
+  height: 400px;
+  width: 390px;
+  border: 2px solid $bluedark;
+}
 /* flexbox for navigation.html slut*/
 
 /* flexbox for background.html start*/
@@ -162,14 +168,6 @@ body {
   @include farvebox();
 }
 /*colors.html - styling af divboks for farver slut*/
-
-/*navigation.html = telefon str. div start*/
-.navtlf {
-  height: 400px;
-  width: 390px;
-  border: 2px solid $bluedark;
-  display: flex;
-}
 
 .overskrift2 {
       margin: 0px;
