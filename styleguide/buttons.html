@@ -453,7 +453,58 @@ line-height: 66%;
                        </div>
                 </div>
         
-        
+<h2 class="farveover">Pop-up box</h2>
+<div class="typediv1"></div>
+        <div class="row">
+            <div class="column">
+
+                <div id="merepop">
+                    <nav>
+                    <div>
+                        <a href="#" id="X">
+                            <i class="fa-solid fa-xmark"></i>
+                        </a>
+                        <a href="profil.html">
+                            Profil
+                        </a>
+                        <a href="information.html">
+                            Information
+                        </a>
+                    </div>
+                    </nav>
+                </div>
+
+            </div>
+
+            <div class="column right">
+<b>html:</b>
+<xmp><div id="mere">
+    <a href="#" class="navtext">
+        <i class="fa-solid fa-ellipsis navicon"></i>
+        <br>
+        Mere
+    </a>
+</div>
+</xmp>
+
+<b>scss:</b>
+<xmp>.navtext{
+    @include navtext();
+    font-size: 15px;
+}
+
+    #bruger, #aarskort, #mere {
+background: $bluedark;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+text-align: center;
+    a {
+    margin: 5px;
+    }
+}</xmp>
+                </div>
+        </div>
 </div>
 </body>
 </html>
