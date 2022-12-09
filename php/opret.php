@@ -4,6 +4,8 @@
     $password = "";
     $dbname = "jftest";
     $conn = new mysqli($servername, $username, $password, $dbname);
+
+    session_start();
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +25,11 @@
 <body>
     <div id="logo"> <img src="assets/logojumpingfun.png" alt="JumpingFuns Logo"></div>
 
-<h1 class="overskrift1">opret</h1>
+    <a href="javascript:history.back()" id="tilbage">
+      <i class="fa-solid fa-arrow-left"></i>
+    </a>
+
+<h1 class="overskrift1">opret <?php if($_SESSION["from"] == "brugere"){echo "tilknyttet";} ?></h1>
     <div class="container">
       <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
 
@@ -63,9 +69,31 @@
           <input type="password" placeholder="Indtast kodeord" name="psw" required>
         </div>
 
-        <label id="husk" class="mindretekst">
-          <input type="checkbox" checked="checked" name="remember"> Jeg har 
-        </label>
+        <br>
+
+        <div class="row" <?php if($_SESSION["from"] == "brugere"){echo "style='display:none'";} ?>>
+        <div class="column">
+        <div class="checkboxdiv">
+          <input type="checkbox" value="1" name="fam"> 
+        </div>
+      </div>
+
+      <div class="column right">
+        <label id="checkbox" class="mindretekst">Denne konto er en familiekonto </label> 
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="column">
+          <input type="checkbox" name="remember"  required>
+        </div>
+
+        <div class="column right">
+          <label id="checkbox" class="mindretekst">
+             Jeg har læst og accepteret JumpingFun 
+            apps <span class="pink">vilkår og betingelser</span></label>
+      </div>
+    </div>
       
         <button type="submit">Opret mig</button>
         </form>
@@ -76,12 +104,22 @@
             $bdate = $_POST['bdate'];
             $tlf = $_POST['tlf'];
             $email = $_POST['email'];
+            $fam = $_POST['fam'];
             $psw = password_hash($_POST['psw'], PASSWORD_DEFAULT);
             if ($name == "") {
                 echo "Name is empty";
             } else {
-                $sql = "INSERT INTO bruger(brugernavn, fødselsdato, tlf, email, kode) VALUES ('$name', '$bdate', '$tlf', '$email', '$psw')";
+                $sql = "INSERT INTO bruger(brugernavn, fødselsdato, tlf, email, isfam, kode) VALUES ('$name', '$bdate', '$tlf', '$email', '$fam', '$psw')";
                 $conn->query($sql);
+                if($_SESSION["from"] == "brugere"){
+                  $voksen = $_SESSION["userwho"];
+                  $sql = "INSERT INTO familie(brugernavn_voksen, brugernavn_barn) VALUES ('$voksen', '$name')";
+                  $conn->query($sql);
+                  header("Location: brugere.php");
+                }else{
+                  header("Location: index.php");
+                }
+                
             }
         }
         ?>

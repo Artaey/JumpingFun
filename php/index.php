@@ -6,6 +6,7 @@
     $conn = new mysqli($servername, $username, $password, $dbname);
 
     session_start();
+    $_SESSION["from"] = "index";
 ?>
 
 <!DOCTYPE html>
@@ -29,8 +30,8 @@
     <div class="container">
 
       <form class="<?php if($_SERVER["REQUEST_METHOD"] == "POST"){ if($_SESSION["iserror"] == "error"){ echo("error");}} ?>" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
-        <label for="uname"><b>Brugernavn</b></label> <br>
         
+      <label for="uname"><b>Brugernavn</b></label> <br>
         <div class="inputicon">
           <i class="fa-solid fa-user"></i>
           <input type="text" placeholder="Indtast brugernavn" name="uname" required>
@@ -55,7 +56,9 @@
               $hashed = $row["kode"];
             }
             if(password_verify($psw, $hashed)){
-              header("Location: opret.php");
+              $_SESSION["userwho"] = $name;
+              header("Location: aarskort.php");
+              
             }else{
               echo("<span id='error'>Forkert brugernavn eller kodeord</span>");
               $_SESSION["iserror"] = "error";
@@ -73,7 +76,7 @@
 
         <p class="mindretekst"> Opret dig her 
         <br>
-        <button class="button button2">Opret</button> </p>
+        <button type="button" class="button button2"  onclick=" location.href='Opret.php'">Opret</button> </p>
       </form>
 
     </div>
