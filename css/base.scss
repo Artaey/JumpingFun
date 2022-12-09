@@ -112,6 +112,48 @@ body{
     }
 }
 
+
+nav{
+    @include topbottom();
+    bottom: 0;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: -1px;
+}
+
+#merepop{
+    background: $pinkdark;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -266px;
+    margin-right: -125px;
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    width: 266px;
+    height: 266px;
+    border-radius: 250px;
+    div{
+        margin-top: 10px;
+        margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+
+        a{
+            color: $backcolor;
+            margin-bottom: 5px;
+        }
+
+        #X{
+            margin-bottom: 5px;
+            font-size: 30px;
+        }
+    }
+    
+}
+
 .proimg{
     display: flex;
     justify-content: center;
