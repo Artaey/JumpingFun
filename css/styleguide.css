@@ -503,10 +503,17 @@ li a:hover:not(.active) {
 /*colors.html - styling af divboks for farver slut*/
 /*navigation.html = telefon str. div start*/
 .navtlf {
-  height: 400px;
+  height: 200px;
   width: 300px;
   border: 2px solid #083649;
 }
+
+.divcenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .overskrift2 {
   margin: 0px;

@@ -92,6 +92,28 @@ body {
   height: auto;
 }
 
+nav{
+  bottom: 0;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: -1px;
+}
+
+#merepop {
+  background: #ec008c;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -266px;
+  margin-right: -125px;
+  display: flex;
+  justify-content: left;
+  justify-items: left;
+  width: 266px;
+  height: 266px;
+  border-radius: 250px;  
+}
+
 .proimg {
   display: flex;
   justify-content: center;
@@ -108,6 +130,12 @@ body {
   background-color: #f8f8f8;
   border-radius: 20px;
   filter: drop-shadow(0px 10px 20px rgba(8, 54, 73, 0.5));
+  
+  box-sizing: content-box;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
 }
 
 .brugernavn {
@@ -289,9 +317,6 @@ a {
 
 /* Glemt kodeord link slut*/
 /* ikon styling */
-.inputicon {
-  /* checkbox generel styling */
-}
 .inputicon i {
   font-size: 25px;
   color: #083649;
