@@ -170,6 +170,19 @@ body {
   margin-right: 15px;
 }
 
+.nybruger {
+  background: #f900c4;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  color: #f8f8f8;
+  border-radius: 50%;
+  line-height: 78px;
+  font-size: 100px;
+  margin: auto;
+  margin-top: 0px;
+}
+
 /* Log ind start*/
 button {
   background-color: #f900c4;

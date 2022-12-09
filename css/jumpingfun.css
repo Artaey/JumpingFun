@@ -170,6 +170,19 @@ body {
   margin-right: 15px;
 }
 
+.nybruger {
+  background: #f900c4;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  color: #f8f8f8;
+  border-radius: 50%;
+  line-height: 78px;
+  font-size: 100px;
+  margin: auto;
+  margin-top: 0px;
+}
+
 /* Log ind start*/
 button {
   background-color: #f900c4;
@@ -360,6 +373,8 @@ header h1 {
   height: 100%;
   display: flex;
   overflow-x: scroll;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
 }
 
 .aarsind {
@@ -381,7 +396,7 @@ header h1 {
 }
 
 .aarsbrug {
-  margin-left: -25px;
+  margin-left: -45px;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -399,7 +414,7 @@ header h1 {
 }
 
 .spacer {
-  width: 25px;
+  width: 5px;
 }
 
 .qrbox {
@@ -408,7 +423,14 @@ header h1 {
   height: 200px;
   margin: auto;
   margin-top: -13px;
-  border-radius: 25px;
+  border-radius: 15px;
+  display: flex;
+  justify-items: center;
+}
+.qrbox img {
+  width: 90%;
+  height: auto;
+  margin: auto;
 }
 
 .info {
@@ -494,9 +516,17 @@ nav {
   justify-items: center;
   margin-top: 200px;
 }
+.iconslille .brugercon {
+  margin-top: 15px;
+}
 .iconslille .brugericon {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5px;
+}
+
+.nybruger {
+  margin-top: 20px;
 }
 
 #aarsicons {

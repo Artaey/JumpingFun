@@ -102,6 +102,7 @@ body{
     height: 100%;
     display: flex;
     overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 }
 
 .aarsind{
@@ -124,7 +125,7 @@ body{
 }
 
 .aarsbrug{
-    margin-left: -25px;
+    margin-left: -45px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -142,7 +143,7 @@ body{
 }
 
 .spacer{
-    width: 25px;
+    width: 5px;
 }
 .qrbox{
     background: gold;
@@ -150,7 +151,16 @@ body{
     height: 200px;
     margin: auto;
     margin-top: -13px;
-    border-radius: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-items: center;
+
+    img{
+        width: 90%;
+        height: auto;
+        margin: auto;
+
+    }
 }
 
 //årskort box slut
@@ -237,10 +247,19 @@ nav{
     justify-items: center;
     margin-top: 200px;
 
+    .brugercon{
+        margin-top: 15px;
+    }
+
     .brugericon{
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 5px;
     }
+}
+
+.nybruger{
+    margin-top: 20px;
 }
 
 #aarsicons{
