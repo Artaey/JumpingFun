@@ -19,17 +19,6 @@ body{
     margin: 0px;
 }
 
- header{
-        @include topbottom();
-        top: 0;
-        
-        h1 {
-            margin: 0px;
-            width: 100%;
-            text-align: center;
-        }
-}
-
 .proimg{
     align-items: flex-end;
     position: fixed;
