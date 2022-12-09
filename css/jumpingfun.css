@@ -13,7 +13,23 @@ body {
   height: 100%;
 }
 
+header {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  height: 100px;
+  width: 100%;
+  background: #083649;
+  top: 0;
+}
 
+h1 {
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+}
 
 .overskrift1 {
   font-size: 40px;
@@ -94,6 +110,43 @@ body {
   height: auto;
 }
 
+nav {
+  bottom: 0;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: -1px;
+}
+
+#merepop {
+  background: #ec008c;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -266px;
+  margin-right: -125px;
+  display: flex;
+  justify-content: left;
+  justify-items: left;
+  width: 266px;
+  height: 266px;
+  border-radius: 250px;
+}
+#merepop div {
+  margin-top: 10px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+#merepop div a {
+  color: #f8f8f8;
+  margin-bottom: 5px;
+}
+#merepop div #X {
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
 .proimg {
   display: flex;
   justify-content: center;
@@ -110,6 +163,11 @@ body {
   background-color: #f8f8f8;
   border-radius: 20px;
   filter: drop-shadow(0px 10px 20px rgba(8, 54, 73, 0.5));
+  box-sizing: content-box;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
 }
 
 .brugernavn {
@@ -291,6 +349,9 @@ a {
 
 /* Glemt kodeord link slut*/
 /* ikon styling */
+.inputicon {
+  /* checkbox generel styling */
+}
 .inputicon i {
   font-size: 25px;
   color: #083649;
@@ -329,12 +390,6 @@ body {
   margin: 0px;
 }
 
-h1 {
-  margin: 0px;
-  width: 100%;
-  text-align: center;
-}
-
 .proimg {
   align-items: flex-end;
   position: fixed;
@@ -364,14 +419,6 @@ h1 {
 #sidelogo img {
   width: 80%;
   height: auto;
-}
-
-#box {
-  box-sizing: content-box;
-  border-radius: 20px;
-  margin-top: 20px;
-  width: 100%;
-  height: 100%;
 }
 
 .aarskortqr {
@@ -443,51 +490,6 @@ h1 {
 .info {
   text-align: center;
   padding: 15px;
-}
-
-nav {
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  position: fixed;
-  right: 0;
-  height: 100px;
-  width: 100%;
-  background: #083649;
-  bottom: 0;
-  justify-content: space-evenly;
-  text-align: center;
-  margin-bottom: -1px;
-}
-
-#merepop {
-  background: #ec008c;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin-bottom: -266px;
-  margin-right: -125px;
-  display: flex;
-  justify-content: left;
-  justify-items: left;
-  width: 266px;
-  height: 266px;
-  border-radius: 250px;
-}
-#merepop div {
-  margin-top: 10px;
-  margin-left: 25px;
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-}
-#merepop div a {
-  color: #f8f8f8;
-  margin-bottom: 5px;
-}
-#merepop div #X {
-  margin-bottom: 5px;
-  font-size: 30px;
 }
 
 .icons {

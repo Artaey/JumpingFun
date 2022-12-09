@@ -200,6 +200,22 @@ nav{
   margin-bottom: -1px;
 }
 
+nav {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-items: center;
+  right: 0;
+  height: 100px;
+  width: 100%;
+  background: #083649;
+  bottom: 0;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: -1px;
+}
+
 #aarskort{
   width: 100px;
   margin-bottom: 40px;
