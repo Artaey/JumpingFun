@@ -3,6 +3,8 @@ $bluedark: #083649;
 $pinklight: #f900c4;
 $pinkdark: #ec008c;
 $nocardgrad: linear-gradient(0deg, $bluedark 0%, $pinkdark 100%);
+$bronzegrad: linear-gradient(0deg, rgba(85,60,16,1) 0%, rgba(201,141,38,1) 60%, rgba(234,200,143,1) 100%);
+$goldgrad: linear-gradient(0deg, rgba(117,99,0,1) 0%, rgba(255,215,0,1) 60%, rgba(255,237,138,1) 100%);
 $errorred:red;
 
 :root{
