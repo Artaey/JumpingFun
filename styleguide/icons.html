@@ -339,13 +339,41 @@ text-align: center;
                 </div>
             </div>
             <div class="column right">
-<b>html:</b><xmp><i class="fa-solid fa-user"></i></xmp>
+<b>html:</b>
+<xmp><div class="proimg" id="probrug">
+    <a href="profil.html">
+        <img src="assets/mainbruger.jpg" alt="profil image">
+    </a>
+</div></xmp>
 <b>scss:</b>
-<xmp>.inputicon{
-    i{
-    font-size: 25px;
-    color: $bluedark;
-    }</xmp>
+<xmp>.proimg{
+    a{
+        border-radius: 50%;
+        background: $nocardgrad;
+
+        img{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: 50% 0%;;
+        margin: 5px;
+        margin-bottom: -3px
+        }
+    }
+}
+
+#probrug{
+    a{
+        img{
+            margin: 10px;
+            margin-bottom: 2px;
+            height: 120px;
+            width: 120px;
+        }
+    }
+    
+}</xmp>
 </div>
 </div>
         
