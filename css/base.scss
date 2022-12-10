@@ -26,29 +26,23 @@ body{
     height: 100%;
 }
 
-nav{
-    @include topbottom();
-    bottom: 0;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: -1px;
-  }
-  
-  nav {
+header {
     z-index: 1;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
     align-items: center;
+    position: fixed;
     right: 0;
     height: 100px;
     width: 100%;
-    background: #083649;
-    bottom: 0;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: -1px;
-  }
+    background:$bluedark;
+    top: 0;  
+}  
+    h1 {
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
 
 .overskrift1{
     font-size: 40px;
@@ -63,12 +57,6 @@ nav{
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 2px;
 }
-
-.overskrift2 {
-    margin: 0px;
-    width: 100%;
-    text-align: center;
-  }
 
 .stortekst{
     font-size: 30px;
