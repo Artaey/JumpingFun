@@ -70,58 +70,6 @@ header {
 // side elementer start
 
 
-nav {
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    align-items: center;
-    right: 0;
-    height: 100px;
-    width: 100%;
-    background: #083649;
-    bottom: 0;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: -1px;
-  }
-
-nav{
-    @include topbottom();
-    bottom: 0;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: -1px;
-  }
-  
-  .botnav {
-    align-self: flex-end;
-  }
-
-  nav{
-    @include topbottom();
-    bottom: 0;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: -1px;
-  }
-  
-  nav {
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    align-items: center;
-    right: 0;
-    height: 100px;
-    width: 100%;
-    background: #083649;
-    bottom: 0;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: -1px;
-  }
-
 .navtext {
     font-family: "Bebas Neue", sans-serif;
     color: #f8f8f8;
@@ -180,6 +128,15 @@ nav{
         width: 100%;
         height: auto;
     }
+}
+
+
+nav{
+    @include topbottom();
+    bottom: 0;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: -1px;
 }
 
 #merepop{

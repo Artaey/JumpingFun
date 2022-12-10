@@ -24,12 +24,11 @@ header {
   background: #083649;
   top: 0;
 }
-
-h1 {
-  margin: 0px;
-  width: 100%;
-  text-align: center;
-}
+  h1 {
+      margin: 0px;
+      width: 100%;
+      text-align: center;
+  }
 
 .overskrift1 {
   font-size: 40px;
@@ -52,33 +51,6 @@ h1 {
 
 .pink {
   color: #ec008c;
-}
-
-.botnav {
-  align-self: flex-end;
-}
-
-nav{
-  bottom: 0;
-  justify-content: space-evenly;
-  text-align: center;
-  margin-bottom: -1px;
-}
-
-nav {
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  align-items: center;
-  right: 0;
-  height: 100px;
-  width: 100%;
-  background: #083649;
-  bottom: 0;
-  justify-content: space-evenly;
-  text-align: center;
-  margin-bottom: -1px;
 }
 
 .navtext {
@@ -137,6 +109,13 @@ nav {
   height: auto;
 }
 
+nav{
+  bottom: 0;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: -1px;
+}
+
 #merepop {
   background: #ec008c;
   position: fixed;
@@ -149,22 +128,7 @@ nav {
   justify-items: left;
   width: 266px;
   height: 266px;
-  border-radius: 250px;
-}
-#merepop div {
-  margin-top: 10px;
-  margin-left: 25px;
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-}
-#merepop div a {
-  color: #f8f8f8;
-  margin-bottom: 5px;
-}
-#merepop div #X {
-  margin-bottom: 5px;
-  font-size: 30px;
+  border-radius: 250px;  
 }
 
 .proimg {
@@ -183,6 +147,7 @@ nav {
   background-color: #f8f8f8;
   border-radius: 20px;
   filter: drop-shadow(0px 10px 20px rgba(8, 54, 73, 0.5));
+  
   box-sizing: content-box;
   border-radius: 20px;
   margin-top: 20px;
@@ -369,7 +334,6 @@ a {
 
 /* Glemt kodeord link slut*/
 /* ikon styling */
-
 .inputicon i {
   font-size: 25px;
   color: #083649;
