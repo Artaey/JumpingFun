@@ -374,7 +374,6 @@ li a:hover:not(.active) {
 .column {
   float: left;
   width: 35%;
-  padding-right: 50px;
 }
 
 .column.right {
@@ -393,7 +392,6 @@ li a:hover:not(.active) {
 .column.nav {
   float: left;
   width: 50%;
-  padding-right: 50px;
 }
 
 .column.right.nav {
