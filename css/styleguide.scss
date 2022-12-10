@@ -71,6 +71,10 @@ body {
 
 /* flexbox for navigation.html start*/
 
+.botnav {
+  background-color: $bluedark;
+}
+
 /* top nav start */
 .overskrift2 {
   margin: 0px;
@@ -197,7 +201,6 @@ body {
     right: 0;
     height: 100px;
     width: 100%;
-    background: $bluedark;
 }
 
 nav{

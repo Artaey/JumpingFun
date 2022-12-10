@@ -503,6 +503,9 @@ li a:hover:not(.active) {
 
 /*navigation.html start*/
 
+.botnav {
+  background-color:#083649;
+}
 
 .navtlf {
   height: 200px;
@@ -538,7 +541,6 @@ nav {
   right: 0;
   height: 100px;
   width: 100%;
-  background: #083649;
   bottom: 0;
   justify-content: space-evenly;
   text-align: center;
