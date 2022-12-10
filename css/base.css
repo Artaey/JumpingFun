@@ -14,61 +14,6 @@ body {
 }
 
 header {
-<<<<<<< HEAD
-=======
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  position: fixed;
-  right: 0;
-  height: 100px;
-  width: 100%;
-  background: #083649;
-  top: 0;
-}
-
-h1 {
-  margin: 0px;
-  width: 100%;
-  text-align: center;
-}
-
-.overskrift1 {
-  font-size: 40px;
-  font-family: "Bebas Neue", sans-serif;
-  letter-spacing: 2px;
-  color: #083649;
-}
-
-.overskrift2 {
-  color: #f8f8f8;
-  font-size: 35px;
-  font-family: "Bebas Neue", sans-serif;
-  letter-spacing: 2px;
-}
-
-.stortekst {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.pink {
-  color: #ec008c;
-}
-
-.botnav {
-  align-self: flex-end;
-}
-
-nav{
-  bottom: 0;
-  justify-content: space-evenly;
-  text-align: center;
-  margin-bottom: -1px;
-}
-
-nav {
->>>>>>> parent of 861a44e (navigations bøvl - bund navigation ser ordentligt ud i, men ikke top. - top navigation ser ordenligt ud, men ikke bund i index.html)
   z-index: 1;
   display: flex;
   align-items: center;
@@ -85,7 +30,6 @@ nav {
       text-align: center;
   }
 
-<<<<<<< HEAD
 .overskrift1 {
   font-size: 40px;
   font-family: "Bebas Neue", sans-serif;
@@ -109,8 +53,6 @@ nav {
   color: #ec008c;
 }
 
-=======
->>>>>>> parent of 861a44e (navigations bøvl - bund navigation ser ordentligt ud i, men ikke top. - top navigation ser ordenligt ud, men ikke bund i index.html)
 .navtext {
   font-family: "Bebas Neue", sans-serif;
   color: #f8f8f8;
