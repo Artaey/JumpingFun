@@ -658,6 +658,7 @@ nav {
   padding-top: 0px;
   display: flex;
   flex-direction: row;
+  width: 90%;
 }
 .inputicon i {
   margin-top: 20px;
@@ -668,7 +669,7 @@ nav {
 /* validation.html start*/
 #error {
   display: inline-block;
-  width: 100%;
+  width: 90%;
 }
 
 /* validation.html slut*//*# sourceMappingURL=styleguide.css.map */
