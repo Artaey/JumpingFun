@@ -13,7 +13,27 @@ body {
   height: 100%;
 }
 
+<<<<<<< HEAD
 
+=======
+header {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  height: 100px;
+  width: 100%;
+  background: #083649;
+  top: 0;
+}
+
+h1 {
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+}
+>>>>>>> parent of 861a44e (navigations bøvl - bund navigation ser ordentligt ud i, men ikke top. - top navigation ser ordenligt ud, men ikke bund i index.html)
 
 .overskrift1 {
   font-size: 40px;
@@ -291,6 +311,12 @@ a {
 
 /* Glemt kodeord link slut*/
 /* ikon styling */
+<<<<<<< HEAD
+=======
+.inputicon {
+  /* checkbox generel styling */
+}
+>>>>>>> parent of 861a44e (navigations bøvl - bund navigation ser ordentligt ud i, men ikke top. - top navigation ser ordenligt ud, men ikke bund i index.html)
 .inputicon i {
   font-size: 25px;
   color: #083649;
