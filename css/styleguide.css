@@ -526,14 +526,6 @@ li a:hover:not(.active) {
   background: #083649;
 }
 
-.proimg {
-  align-items: flex-end;
-  position: fixed;
-  z-index: 2;
-  height: 132px;
-  width: 100%;
-  top: 0;
-}
 /* top nav slut */
 
 .botnav {
