@@ -528,9 +528,6 @@ li a:hover:not(.active) {
 
 /* top nav slut */
 
-.botnav {
-  align-self: flex-end;
-}
 
 nav {
   z-index: 1;
@@ -545,7 +542,7 @@ nav {
   bottom: 0;
   justify-content: space-evenly;
   text-align: center;
-  margin-bottom: -1px;
+  margin-top: 100px;
 }
 
 #aarskort {
