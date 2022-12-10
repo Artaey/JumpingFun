@@ -70,6 +70,17 @@ body {
 
 
 /* flexbox for navigation.html start*/
+
+/* top nav start */
+.overskrift2 {
+  margin: 0px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background: $bluedark;
+}
+/* top nav slut */
+
 .column.nav {
   float: left;
   width: 50%;

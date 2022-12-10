@@ -499,9 +499,11 @@ li a:hover:not(.active) {
   border-radius: 10%;
   margin: auto;
 }
-
 /*colors.html - styling af divboks for farver slut*/
-/*navigation.html = telefon str. div start*/
+
+/*navigation.html start*/
+
+
 .navtlf {
   height: 200px;
   width: 300px;
@@ -515,11 +517,15 @@ li a:hover:not(.active) {
 }
 
 
+/* top nav start */
 .overskrift2 {
   margin: 0px;
   width: 100%;
+  height: 200px;
   text-align: center;
+  background: #083649;
 }
+/* top nav slut */
 
 .botnav {
   align-self: flex-end;
@@ -626,7 +632,10 @@ nav {
   overflow-y: scroll;
 }
 
-/*navigation.html = telefon str. div slut*/
+/*navigation.html slut*/
+
+
+
 /*icons.html - styling af divboks for ikoner start*/
 .knapper {
   display: flex;
