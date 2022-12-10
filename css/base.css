@@ -13,51 +13,6 @@ body {
   height: 100%;
 }
 
-header {
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  position: fixed;
-  right: 0;
-  height: 100px;
-  width: 100%;
-  background: #083649;
-  top: 0;
-}
-
-h1 {
-  margin: 0px;
-  width: 100%;
-  text-align: center;
-}
-
-.overskrift1 {
-  font-size: 40px;
-  font-family: "Bebas Neue", sans-serif;
-  letter-spacing: 2px;
-  color: #083649;
-}
-
-.overskrift2 {
-  color: #f8f8f8;
-  font-size: 35px;
-  font-family: "Bebas Neue", sans-serif;
-  letter-spacing: 2px;
-}
-
-.stortekst {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.pink {
-  color: #ec008c;
-}
-
-.botnav {
-  align-self: flex-end;
-}
-
 nav{
   bottom: 0;
   justify-content: space-evenly;
@@ -75,6 +30,46 @@ nav {
   height: 100px;
   width: 100%;
   background: #083649;
+  bottom: 0;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: -1px;
+}
+
+.overskrift1 {
+  font-size: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+  color: #083649;
+}
+
+.overskrift2 {
+  color: #f8f8f8;
+  font-size: 35px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+}
+
+.overskrift2 {
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.stortekst {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.pink {
+  color: #ec008c;
+}
+
+.botnav {
+  align-self: flex-end;
+}
+
+nav{
   bottom: 0;
   justify-content: space-evenly;
   text-align: center;
