@@ -204,3 +204,33 @@ body{
     margin-right: 10px;
 }
 // brugere.html slut
+
+#merepop {
+    background: $pinklight;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -266px;
+    margin-right: -125px;
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    width: 266px;
+    height: 266px;
+    border-radius: 250px;
+  }
+  #merepop div {
+    margin-top: 10px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  #merepop div a {
+    color: $backcolor;
+    margin-bottom: 5px;
+  }
+  #merepop div #X {
+    margin-bottom: 5px;
+    font-size: 30px;
+  }

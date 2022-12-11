@@ -455,7 +455,7 @@ line-height: 66%;
                        </div>
                 </div>
         
-<h2 class="farveover">Pop-up box</h2>
+<h2 class="farveover">Pop-up box (Ikke live)</h2>
 <div class="typediv1"></div>
         <div class="row">
             <div class="column">
@@ -477,22 +477,52 @@ line-height: 66%;
 </div>
 
             <div class="column right">
-<b>scss:</b>
-<xmp>.navtext{
-    @include navtext();
-    font-size: 15px;
-}
+<b>html:</b>
+<xmp><div id="merepop">
+    <div>
+        <a href="#" id="X">
+            <i class="fa-solid fa-xmark"></i>
+        </a>
+        <a href="profil.html">
+            Profil
+        </a>
+        <a href="information.html">
+            Information
+        </a>
+    </div>
+</div></xmp>
 
-    #bruger, #aarskort, #mere {
-background: $bluedark;
-border-radius: 10px;
-display: flex;
-justify-content: center;
-text-align: center;
-    a {
-    margin: 5px;
+<b>scss:</b>
+<xmp>#merepop {
+    background: $pinklight;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -266px;
+    margin-right: -125px;
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    width: 266px;
+    height: 266px;
+    border-radius: 250px;
     }
+    #merepop div {
+    margin-top: 10px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    }
+    #merepop div a {
+    color: $backcolor;
+    margin-bottom: 5px;
+    }
+    #merepop div #X {
+    margin-bottom: 5px;
+    font-size: 30px;
 }</xmp>
+
                 </div>
         </div>
 </div>
