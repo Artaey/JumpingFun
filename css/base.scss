@@ -112,6 +112,16 @@ body{
     }
 }
 
+@mixin topbottom {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    background: $bluedark;
+}
 
 nav{
     @include topbottom();
@@ -293,10 +303,30 @@ nav{
 
 // brugere.html - styling af de små profilbilleder
 .brugericon{
-    background: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+    img{
+        height: 80px;
+        width: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: 50% 0%;
+        margin: auto;
+    }
 }
 
+.rang1{
+    background: $goldgrad;
+}
 
+.rang2{
+    background: $bronzegrad;
+}
 // side elementer slut
 
 /* Log ind start*/

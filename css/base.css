@@ -92,7 +92,15 @@ body {
   height: auto;
 }
 
-nav{
+nav {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  height: 100px;
+  width: 100%;
+  background: #083649;
   bottom: 0;
   justify-content: space-evenly;
   text-align: center;
@@ -111,7 +119,22 @@ nav{
   justify-items: left;
   width: 266px;
   height: 266px;
-  border-radius: 250px;  
+  border-radius: 250px;
+}
+#merepop div {
+  margin-top: 10px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+#merepop div a {
+  color: #f8f8f8;
+  margin-bottom: 5px;
+}
+#merepop div #X {
+  margin-bottom: 5px;
+  font-size: 30px;
 }
 
 .proimg {
@@ -130,7 +153,6 @@ nav{
   background-color: #f8f8f8;
   border-radius: 20px;
   filter: drop-shadow(0px 10px 20px rgba(8, 54, 73, 0.5));
-  
   box-sizing: content-box;
   border-radius: 20px;
   margin-top: 20px;
@@ -248,7 +270,30 @@ nav{
 }
 
 .brugericon {
-  background: black;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.brugericon img {
+  height: 80px;
+  width: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  -o-object-position: 50% 0%;
+     object-position: 50% 0%;
+  margin: auto;
+}
+
+.rang1 {
+  background: linear-gradient(0deg, rgb(117, 99, 0) 0%, rgb(255, 215, 0) 60%, rgb(255, 237, 138) 100%);
+}
+
+.rang2 {
+  background: linear-gradient(180deg, rgb(255, 153, 72) 0%, rgb(195, 116, 51) 45%, rgb(94, 43, 0) 100%);
 }
 
 /* Log ind start*/
@@ -317,6 +362,9 @@ a {
 
 /* Glemt kodeord link slut*/
 /* ikon styling */
+.inputicon {
+  /* checkbox generel styling */
+}
 .inputicon i {
   font-size: 25px;
   color: #083649;
