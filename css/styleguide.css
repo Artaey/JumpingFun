@@ -671,5 +671,14 @@ img {
   background-color: #f8f8f8;
   border-radius: 20px;
   filter: drop-shadow(0px 10px 20px rgba(8, 54, 73, 0.5));
+  margin-right: 50px;
 }
+
+
+.info{
+  text-align: center;
+  padding: 15px
+}
+
+
 /* validation.html slut*//*# sourceMappingURL=styleguide.css.map */
