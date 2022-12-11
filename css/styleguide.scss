@@ -345,3 +345,12 @@ nav{
 img {
   height: 500px;
 }
+
+#box {
+  box-sizing: content-box;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 50%;
+  height: 100%;
+}
