@@ -1,0 +1,341 @@
+:root {
+  background: #f8f8f8;
+  font-size: 20px;
+  height: 100%;
+}
+:root a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+  font-family: "Titillium Web", sans-serif;
+  height: 100%;
+}
+
+.overskrift1 {
+  font-size: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+  color: #083649;
+}
+
+.overskrift2 {
+  color: #f8f8f8;
+  font-size: 35px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+}
+
+.stortekst {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.pink {
+  color: #ec008c;
+}
+
+.navtext {
+  font-family: "Bebas Neue", sans-serif;
+  color: #f8f8f8;
+  font-size: 15px;
+}
+
+.navtextbig {
+  font-family: "Bebas Neue", sans-serif;
+  color: #f8f8f8;
+  font-size: 20px;
+}
+
+.navicon {
+  font-size: 35px;
+}
+
+.navtext {
+  font-family: "Bebas Neue", sans-serif;
+  color: #f8f8f8;
+  font-size: 15px;
+}
+
+.navtextbig {
+  font-family: "Bebas Neue", sans-serif;
+  color: #f8f8f8;
+  font-size: 20px;
+}
+
+.navicon {
+  font-size: 35px;
+}
+
+#bruger, #aarskort, #mere {
+  background: #083649;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#bruger a, #aarskort a, #mere a {
+  margin: 5px;
+}
+
+.proimg {
+  display: flex;
+  justify-content: center;
+}
+.proimg a {
+  border-radius: 50px;
+  background: linear-gradient(0deg, #083649 0%, #ec008c 100%);
+}
+.proimg a img {
+  height: 50px;
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+  -o-object-position: 50% 0%;
+     object-position: 50% 0%;
+  margin: 5px;
+  margin-bottom: -3px;
+}
+
+#content {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#box {
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  filter: drop-shadow(0px 10px 20px rgba(8, 54, 73, 0.5));
+}
+
+.brugernavn {
+  text-align: center;
+  background: #083649;
+  color: #f8f8f8;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  border-radius: 50px;
+  border: 5px solid #f8f8f8;
+  filter: drop-shadow(0px 2px 3px rgba(8, 54, 73, 0.5));
+  line-height: 66%;
+}
+
+#tilbage {
+  background: #083649;
+  color: #f8f8f8;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  line-height: 40px;
+  z-index: 5;
+}
+
+.brugerinfo {
+  color: #083649;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 2px solid #083649;
+}
+.brugerinfo i {
+  margin-right: 20px;
+}
+.brugerinfo svg {
+  transform: scale(0.8);
+  margin-bottom: -5px;
+  margin-left: -3px;
+  margin-right: 15px;
+}
+
+/* Log ind start*/
+button {
+  background-color: #f900c4;
+  color: #f8f8f8;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 8px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button2 {
+  background-color: #083649;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 15px;
+  width: 80px;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+/* Teksten over indtastfelterne start*/
+label {
+  color: #083649;
+  font-style: bold;
+  float: left;
+}
+
+b {
+  color: #ec008c;
+}
+
+/* Teksten over indtastfelterne slut*/
+input[type=text], input[type=password], input[type=number], input[type=date] {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  background: #f8f8f8;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-bottom-color: #083649;
+  box-sizing: border-box;
+}
+
+/* Glemt kodeord link start*/
+span.psw {
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+a {
+  color: #083649;
+}
+
+/* Glemt kodeord link slut*/
+/* ikon styling */
+.inputicon {
+  /* checkbox generel styling */
+}
+.inputicon i {
+  font-size: 25px;
+  color: #083649;
+}
+
+.mindretekst {
+  font-size: 15px;
+}
+
+/* Log ind slut*/
+#error {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid red;
+  width: 100%;
+  text-align: center;
+}
+
+.error input[type=text] {
+  border-color: red;
+}
+.error input[type=password] {
+  border-color: red;
+}
+.error .inputicon i {
+  color: red;
+}
+
+/* styling af logo start */
+#logo img {
+  width: 80%;
+  height: auto;
+  padding-top: 60px;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+}
+
+/* styling af logo slut */
+#tilbage {
+  margin-top: 10px;
+  margin-left: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  padding: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* flexbox for opret.html checkbokse start*/
+.column {
+  float: left;
+  width: 10%;
+}
+
+.column.right {
+  justify-content: center;
+  width: 90%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+/* flexbox for opret.html checkbokse slut*/
+/* opret.html knap start*/
+button {
+  margin-top: 20px;
+}
+
+/* opret.html knap slut*/
+h1 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+p {
+  margin: 80px 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#husk {
+  margin-top: 50px;
+}
+
+.inputicon {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.inputicon i {
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 20px;
+}
+.inputicon svg {
+  width: 12px;
+  height: auto;
+}
+
+#error {
+  float: left;
+}/*# sourceMappingURL=formular.css.map */

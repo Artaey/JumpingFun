@@ -6,6 +6,7 @@
     $conn = new mysqli($servername, $username, $password, $dbname);
 
     session_start();
+    $_POST['fam'] = "0";
 ?>
 
 <!DOCTYPE html>
@@ -36,10 +37,12 @@
       
         <label for="uname"><b>Brugernavn</b></label> 
         <br>
-        <div class="inputicon">
+        <div class="inputicon <?php if($_SERVER["REQUEST_METHOD"] == "POST"){ if($_SESSION["iserror"] == "error"){ echo("error");}} ?>">
           <i class="fa-solid fa-user"></i>
           <input type="text" placeholder="Indtast brugernavn" name="uname" required>
         </div>
+        
+        <?php if($_SERVER["REQUEST_METHOD"] == "POST"){ if($_SESSION["iserror"] == "error"){ echo("<span id='error'>Brugernavn allerede taget</span><br><br>");}} ?>
         
         <label for="bdate"><b>Fødselsdato</b></label>  
         <br>
@@ -105,21 +108,28 @@
             $tlf = $_POST['tlf'];
             $email = $_POST['email'];
             $fam = $_POST['fam'];
+            
             $psw = password_hash($_POST['psw'], PASSWORD_DEFAULT);
-            if ($name == "") {
-                echo "Name is empty";
-            } else {
-                $sql = "INSERT INTO bruger(brugernavn, fødselsdato, tlf, email, isfam, kode) VALUES ('$name', '$bdate', '$tlf', '$email', '$fam', '$psw')";
+            
+            $sql = "SELECT brugernavn FROM bruger WHERE brugernavn='$name'";
+            $result = $conn->query($sql);
+            $num = 0;
+            while($row = $result->fetch_assoc()) {
+              $num++;
+            }
+            if($num == 0){
+              $sql = "INSERT INTO bruger(brugernavn, fødselsdato, tlf, email, isfam, kode) VALUES ('$name', '$bdate', '$tlf', '$email', '$fam', '$psw')";
+              $conn->query($sql);
+              if($_SESSION["from"] == "brugere"){
+                $voksen = $_SESSION["userwho"];
+                $sql = "INSERT INTO familie(brugernavn_voksen, brugernavn_barn) VALUES ('$voksen', '$name')";
                 $conn->query($sql);
-                if($_SESSION["from"] == "brugere"){
-                  $voksen = $_SESSION["userwho"];
-                  $sql = "INSERT INTO familie(brugernavn_voksen, brugernavn_barn) VALUES ('$voksen', '$name')";
-                  $conn->query($sql);
-                  header("Location: brugere.php");
-                }else{
-                  header("Location: index.php");
-                }
-                
+                header("Location: brugere.php");
+              }else{
+                header("Location: index.php");
+              }
+            }else{
+              $_SESSION["iserror"] = "error";
             }
         }
         ?>

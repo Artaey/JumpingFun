@@ -51,8 +51,8 @@
     <div id="content">
         <div id="aarsicons" class="icons">
             <a  href="profilbarn1.php" class="brugercon" <?php if($num < 1){ echo "style='display:none'";} ?>>
-                <div id="rang" class="brugericon">
-
+                <div class="brugericon rang1">
+                    <img src="assets/barn1.jpg" alt="børne bruger">
                 </div>
                 <div class="brugernavn mindretekst">
                     <?php echo $_SESSION["barn0"]; ?>
@@ -60,7 +60,7 @@
             </a>
             <a  href="profilbarn2.php" class="brugercon" <?php if($num < 2){ echo "style='display:none'";} ?>>
                 <div class="brugericon rang2">
-
+                    <img src="assets/barn2.jpg" alt="børne bruger">
                 </div>
                 <div class="brugernavn mindretekst">
                     <?php echo $_SESSION["barn1"]; ?>
