@@ -69,21 +69,19 @@ body {
 
 
 /* flexbox for navigation.html start*/
+.navtlf {
+  height: 200px;
+  width: 300px;
+  border: 2px solid $bluedark;
+}
+
+.topnav {
+  background-color: $bluedark;
+}
 
 .botnav {
   background-color: $bluedark;
 }
-
-/* top nav start */
-.overskrift2 {
-  margin: 0px;
-  width: 100%;
-  height: 100px;
-  text-align: center;
-  background: $bluedark;
-}
-
-/* top nav slut */
 
 .column.nav {
   float: left;
@@ -93,12 +91,6 @@ body {
 .column.right.nav {
   justify-content: center;
   width: 50%;
-}
-
-.navtlf {
-  height: 200px;
-  width: 300px;
-  border: 2px solid $bluedark;
 }
 /* flexbox for navigation.html slut*/
 
@@ -188,6 +180,15 @@ body {
       width: 100%;
       text-align: center;
   }
+
+/* top nav alignment i navigation.html start */
+.overskrift2 {
+  margin: 0px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+/* top nav alignment slut */
 
 
 @mixin topbottom {

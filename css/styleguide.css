@@ -28,6 +28,15 @@ body {
   letter-spacing: 2px;
 }
 
+/* top nav alingment navigation.html start */
+.overskrift2 {
+  margin: 0px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+/* top nav alingment slut */
+
 .stortekst {
   font-size: 30px;
   font-weight: bold;
@@ -500,6 +509,9 @@ li a:hover:not(.active) {
 /*colors.html - styling af divboks for farver slut*/
 
 /*navigation.html start*/
+.topnav {
+  background-color: #083649;
+}
 
 .botnav {
   background-color:#083649;
@@ -516,19 +528,6 @@ li a:hover:not(.active) {
   justify-content: center;
   align-items: center;
 }
-
-
-/* top nav start */
-.overskrift2 {
-  margin: 0px;
-  width: 100%;
-  height: 100px;
-  text-align: center;
-  background: #083649;
-}
-
-/* top nav slut */
-
 
 nav {
   z-index: 1;
