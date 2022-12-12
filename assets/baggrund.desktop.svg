@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1920" height="1080" fill="#f8f8f8"/>
+    <g id="Group_82" data-name="Group 82" transform="translate(974 -26)">
+      <g id="Group_81" data-name="Group 81" transform="translate(-207.756 92.506)">
+        <path id="Polygon_60" data-name="Polygon 60" d="M651,0l651,284H0Z" transform="matrix(-0.961, -0.276, 0.276, -0.961, 689.141, 810.372)" fill="#083649"/>
+        <path id="Polygon_61" data-name="Polygon 61" d="M753,0l753,255.139H0Z" transform="translate(-343.918 444.902) rotate(-8)" fill="#ec008c"/>
+      </g>
+    </g>
+  </g>
+</svg>
