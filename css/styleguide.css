@@ -292,6 +292,22 @@ nav {
   background: linear-gradient(180deg, rgb(255, 153, 72) 0%, rgb(195, 116, 51) 45%, rgb(94, 43, 0) 100%);
 }
 
+.aarsbrug {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.aarsbrug img {
+  height: 42px;
+  width: 42px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  -o-object-position: 50% 0%;
+     object-position: 50% 0%;
+  margin: auto;
+}
+
 /* Log ind start*/
 button {
   background-color: #f900c4;

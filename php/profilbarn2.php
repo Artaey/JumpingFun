@@ -107,7 +107,7 @@
             <a href="brugere.php" class="navtext">
                 <i class="fa-solid fa-user-group navicon"></i>
                 <br>
-                Bruger
+                Brugere
             </a>
         </div>
         <div id="aarskort">

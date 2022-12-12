@@ -324,6 +324,22 @@ nav{
 }
 // side elementer slut
 
+.aarsbrug{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    img{
+        height: 42px;
+        width: 42px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: 50% 0%;
+        margin: auto;
+    }
+}
+
+
 /* Log ind start*/
 button {
 background-color: $pinklight;
