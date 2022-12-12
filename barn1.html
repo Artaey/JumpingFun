@@ -11,58 +11,72 @@
     <script src="https://kit.fontawesome.com/f4a342204d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/jumpingfun.css">
     <script src="js/main.js" defer></script>
-    <title>Brugere</title>
+    <title>Profil</title>
 </head>
 <body>
     <header>
-        <h1 class="overskrift2">BRUG<span class="pink">ERE</span></h1>
+        <h1 class="overskrift2">PRO<span class="pink">FIL</span></h1>
     </header>
 
-    <div class="proimg" id="probrug">
-        <a href="profil.html">
-            <img src="assets/mainbruger.jpg" alt="profil image">
-        </a>
-    </div>
+    <a href="javascript:history.back()" id="tilbage">
+        <i class="fa-solid fa-arrow-left"></i>
+    </a>
+
+    <a id="logout" href="index.html">
+        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    </a>
 
     <div id="content">
-        
-
-        <div class="icons iconslille">
-            <a href="profil.html">
-            <div class="brugernavn mindretekst">
-                Sofie Mortensen
-            </div>
-             </a>
-
+        <div class="icons profilicon">
             <div class="brugercon">
-                <div class="brugercon">
-                    <a href="barn1.html">
-                    <div class="brugericon rang1">
-                    <img src="assets/barn1.jpg" alt="børne bruger1">                            
-                    </div>
-                <a href="barn1.html">
+                <div class="brugericon rang1">
+                    <img src="assets/barn1.jpg" alt="profil image">
+                </div>
                 <div class="brugernavn mindretekst">
                     Nikolai
                 </div>
-                </a>
-            </div>
-            <div class="brugercon">
-                <div class="brugericon rang2">
-                    <img src="assets/barn2.jpg" alt="børne bruger">
-                </div>
-                <div class="brugernavn mindretekst">
-                    Anna
-                </div>
             </div>
         </div>
-        <a href="../JumpingFun/opret.html" class="nybruger">
-            +
-        </a>
+        <div id="box">
+            <p class="brugerinfo">
+                <i class="fa-solid fa-user"></i> Navn
+            </p>
+            <p class="brugerinfo">
+                <i class="fa-solid fa-cake-candles"></i> Fødselsdato
+            </p>
+            <p class="brugerinfo">
+                <i class="fa-solid fa-mobile-screen-button"></i> Mobil nummer
+            </p>
+            <p class="brugerinfo">
+                <i class="fa-solid fa-envelope"></i> Email
+            </p>
+            <p class="brugerinfo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="29.972" height="29.262" viewBox="0 0 29.972 29.262">
+                    <g id="Årskort_icon_whitesmall" data-name="Årskort icon whitesmall" transform="translate(1.337 1.404)">
+                        <g id="Icon_feather-credit-cardsmall" data-name="Icon feather-credit-cardsmall" transform="matrix(0.899, 0.438, -0.438, 0.899, -5.373, 11.458)">
+                            <path id="Pathsmall_43" data-name="Pathsmall 43" d="M1.558,0H15.584a1.558,1.558,0,0,1,1.558,1.558v9.35a1.558,1.558,0,0,1-1.558,1.558H1.558A1.558,1.558,0,0,1,0,10.908V1.558A1.558,1.558,0,0,1,1.558,0Z" transform="translate(8.138 -8.038)" fill="#fff" stroke="#083649" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            <path id="Pathsmall_44" data-name="Pathsmall 44" d="M0,0H15.964" transform="translate(9.316 -5.587)" fill="#fff" stroke="#083649" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        </g>
+                        <g id="Icon_feather-credit-cardsmall-2" data-name="Icon feather-credit-cardsmall" transform="translate(7.016 -1.749) rotate(42)">
+                            <path id="Pathsmall_43-2" data-name="Pathsmall 43" d="M1.525,0H15.255A1.525,1.525,0,0,1,16.78,1.525v9.153A1.525,1.525,0,0,1,15.255,12.2H1.525A1.525,1.525,0,0,1,0,10.678V1.525A1.525,1.525,0,0,1,1.525,0Z" transform="translate(5.407 3.932)" fill="#fff" stroke="#083649" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        </g>
+                        <g id="Icon_feather-credit-cardsmall-3" data-name="Icon feather-credit-cardsmall" transform="translate(14.402 0) rotate(52)">
+                            <path id="Pathsmall_43-3" data-name="Pathsmall 43" d="M1.894,0H18.944a1.894,1.894,0,0,1,1.894,1.894V13.261a1.894,1.894,0,0,1-1.894,1.894H1.894A1.894,1.894,0,0,1,0,13.261V1.894A1.894,1.894,0,0,1,1.894,0Z" transform="translate(0 0)" fill="#fff" stroke="#083649" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                            <path id="Pathsmall_44-2" data-name="Pathsmall 44" d="M0,0H20.838" transform="translate(0 5.683)" fill="#fff" stroke="#083649" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        </g>
+                    </g>
+                </svg>
+                 Årskort
+            </p>
+            <p class="brugerinfo">
+                <i class="fa-solid fa-user-group"></i> Kontotype
+            </p>
+        </div>
     </div>
 
     <nav>
         <div id="bruger">
-            <a href="#" class="navtext pink">
+            <a href="brugere.html" class="navtext">
                 <i class="fa-solid fa-user-group navicon"></i>
                 <br>
                 Brugere
@@ -90,7 +104,7 @@
             </a>                   
         </div>
         <div id="mere">
-            <a href="#" class="navtext">
+            <a href="#" class="navtext pink">
                 <i class="fa-solid fa-ellipsis navicon"></i>
                 <br>
                 Mere
