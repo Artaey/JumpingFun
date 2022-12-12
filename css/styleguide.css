@@ -37,6 +37,11 @@ body {
   color: #ec008c;
 }
 
+.aarsind p {
+  margin: 5px;
+  color: green;
+}
+
 .navtext {
   font-family: "Bebas Neue", sans-serif;
   color: #f8f8f8;
@@ -411,6 +416,10 @@ body {
   margin: 0;
   color: #083649;
   font-size: 15px;
+}
+
+.standardtekst {
+  font-size: 20px;
 }
 
 #struktur {

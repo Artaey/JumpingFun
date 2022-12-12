@@ -24,7 +24,7 @@ body {
   color: #f8f8f8;
   font-size: 35px;
   font-family: "Bebas Neue", sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 .stortekst {
@@ -34,6 +34,11 @@ body {
 
 .pink {
   color: #ec008c;
+}
+
+.aarsind p {
+  margin: 5px;
+  color: green;
 }
 
 .navtext {
@@ -479,10 +484,6 @@ header h1 {
   margin-left: 21.5%;
   margin-right: 21.5%;
   text-align: center;
-}
-.aarsind p {
-  margin: 5px;
-  color: green;
 }
 
 nav {
