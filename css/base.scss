@@ -79,11 +79,13 @@ body{
 .navtext{
     @include navtext();
     font-size: 15px;
+    letter-spacing: 1px;
 }
 
 .navtextbig{
     @include navtext();
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .navicon{
