@@ -96,11 +96,9 @@ nav {
   z-index: 1;
   display: flex;
   align-items: center;
-  position: fixed;
   right: 0;
   height: 100px;
   width: 100%;
-  background: #083649;
   bottom: 0;
   justify-content: space-evenly;
   text-align: center;
@@ -109,9 +107,6 @@ nav {
 
 #merepop {
   background: #ec008c;
-  position: fixed;
-  bottom: 0;
-  right: 0;
   margin-bottom: -266px;
   margin-right: -125px;
   display: flex;

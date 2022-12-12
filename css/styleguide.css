@@ -28,14 +28,6 @@ body {
   letter-spacing: 2px;
 }
 
-/* top nav alingment navigation.html start */
-.overskrift2 {
-  margin-top: 20px;
-  width: 100%;
-  text-align: center;
-}
-/* top nav alingment slut */
-
 .stortekst {
   font-size: 30px;
   font-weight: bold;
@@ -101,6 +93,46 @@ body {
   height: auto;
 }
 
+nav {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  right: 0;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: -1px;
+}
+
+#merepop {
+  background: #ec008c;
+  margin-bottom: -266px;
+  margin-right: -125px;
+  display: flex;
+  justify-content: left;
+  justify-items: left;
+  width: 266px;
+  height: 266px;
+  border-radius: 250px;
+}
+#merepop div {
+  margin-top: 10px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+#merepop div a {
+  color: #f8f8f8;
+  margin-bottom: 5px;
+}
+#merepop div #X {
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
 .proimg {
   display: flex;
   justify-content: center;
@@ -111,6 +143,17 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
+}
+
+#box {
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  filter: drop-shadow(0px 10px 20px rgba(8, 54, 73, 0.5));
+  box-sizing: content-box;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
 }
 
 .brugernavn {
@@ -223,7 +266,30 @@ body {
 }
 
 .brugericon {
-  background: black;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.brugericon img {
+  height: 80px;
+  width: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  -o-object-position: 50% 0%;
+     object-position: 50% 0%;
+  margin: auto;
+}
+
+.rang1 {
+  background: linear-gradient(0deg, rgb(117, 99, 0) 0%, rgb(255, 215, 0) 60%, rgb(255, 237, 138) 100%);
+}
+
+.rang2 {
+  background: linear-gradient(180deg, rgb(255, 153, 72) 0%, rgb(195, 116, 51) 45%, rgb(94, 43, 0) 100%);
 }
 
 /* Log ind start*/
@@ -291,7 +357,10 @@ a {
 }
 
 /* Glemt kodeord link slut*/
-
+/* ikon styling */
+.inputicon {
+  /* checkbox generel styling */
+}
 .inputicon i {
   font-size: 25px;
   color: #083649;
@@ -391,6 +460,27 @@ li a:hover:not(.active) {
 
 /* flexbox for indhold slut*/
 /* flexbox for navigation.html start*/
+.navtlf {
+  height: 200px;
+  width: 300px;
+}
+
+.topnav {
+  background-color: #083649;
+  padding-top: 30px;
+}
+.topnav h1 {
+  margin: auto;
+}
+.topnav a {
+  margin-bottom: -30px;
+}
+
+.botnav {
+  background-color: #083649;
+  margin-top: 100px;
+}
+
 .column.nav {
   float: left;
   width: 50%;
@@ -402,6 +492,14 @@ li a:hover:not(.active) {
 }
 
 /* flexbox for navigation.html slut*/
+/* flexbox for background.html start*/
+.divcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* flexbox for background.html slut*/
 /*colors.html - styling af divboks for farver start*/
 .farveboks {
   background: #083649;
@@ -499,28 +597,16 @@ li a:hover:not(.active) {
   border-radius: 10%;
   margin: auto;
 }
+
 /*colors.html - styling af divboks for farver slut*/
-
-/*navigation.html start*/
-.topnav {
-  background-color: #083649;
+/* top nav alignment i navigation.html start */
+.overskrift2 {
+  margin: 20px;
+  width: 100%;
+  text-align: center;
 }
 
-.botnav {
-  background-color:#083649;
-}
-
-.navtlf {
-  height: 200px;
-  width: 300px;
-}
-
-.divcenter{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+/* top nav alignment slut */
 nav {
   z-index: 1;
   display: flex;
@@ -533,7 +619,6 @@ nav {
   bottom: 0;
   justify-content: space-evenly;
   text-align: center;
-  margin-top: 100px;
 }
 
 #aarskort {
@@ -551,15 +636,19 @@ nav {
 
 #merepop {
   background: #ec008c;
+  margin-bottom: -266px;
+  margin-right: -125px;
+  display: flex;
   justify-content: left;
   justify-items: left;
   width: 170px;
   height: 170px;
   border-radius: 100px;
+  margin-right: 0px;
 }
 #merepop div {
   margin-top: 10px;
-  margin-right: 50px;
+  margin-left: -50px;
   display: flex;
   flex-direction: column;
   text-align: right;
@@ -615,10 +704,7 @@ nav {
   overflow-y: scroll;
 }
 
-/*navigation.html slut*/
-
-
-
+/*navigation.html = telefon str. div slut*/
 /*icons.html - styling af divboks for ikoner start*/
 .knapper {
   display: flex;
@@ -663,6 +749,7 @@ nav {
   width: 90%;
 }
 
+/* validation.html slut*/
 img {
   height: 500px;
 }
@@ -674,11 +761,7 @@ img {
   margin-right: 50px;
 }
 
-
-.info{
+.info {
   text-align: center;
-  padding: 15px
-}
-
-
-/* validation.html slut*//*# sourceMappingURL=styleguide.css.map */
+  padding: 15px;
+}/*# sourceMappingURL=styleguide.css.map */
