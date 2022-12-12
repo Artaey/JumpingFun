@@ -380,7 +380,7 @@ opacity: 0.6;
     /* Teksten over indtastfelterne start*/
 label{
 color: $bluedark;
-font-style: bold;
+font-weight: bold;
 float: left;
 }
 
@@ -418,14 +418,16 @@ color: $bluedark;
 
     /* ikon styling */
 .inputicon{
-i{
-font-size: 25px;
-color: $bluedark;
-}
-    /* checkbox generel styling */
-}    .mindretekst { 
-        font-size: 15px;
+    i{
+        font-size: 25px;
+        color: $bluedark;
     }
+}   
+
+/* checkbox generel styling */
+.mindretekst { 
+    font-size: 15px;
+ }
 
 /* Log ind slut*/
 
