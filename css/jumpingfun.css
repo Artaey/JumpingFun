@@ -99,7 +99,6 @@ nav {
   right: 0;
   height: 100px;
   width: 100%;
-  background: #083649;
   bottom: 0;
   justify-content: space-evenly;
   text-align: center;
@@ -467,6 +466,12 @@ header h1 {
 .aarsind p {
   margin: 5px;
   color: green;
+}
+
+nav {
+  background: #083649;
+  position: fixed;
+  bottom: 0;
 }
 
 .bruginfo {

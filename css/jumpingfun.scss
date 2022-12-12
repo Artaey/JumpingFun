@@ -85,6 +85,12 @@ body{
         }
 }
 
+nav{
+    background: $bluedark;
+    position: fixed;
+    bottom: 0;
+}
+
 .bruginfo{
     display: flex;
     flex-direction: row;
