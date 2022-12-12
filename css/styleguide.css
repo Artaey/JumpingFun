@@ -662,8 +662,7 @@ nav {
 
 #merepop {
   background: #ec008c;
-  margin-bottom: -266px;
-  margin-right: -125px;
+  margin-bottom: 1px;
   display: flex;
   justify-content: left;
   justify-items: left;
