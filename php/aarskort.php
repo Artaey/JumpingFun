@@ -71,8 +71,8 @@
             <div class="aarskortqr">
             <div class="aarsind" <?php if($_SESSION["isfam"] == 1){ echo "style='display:none'";} ?>>
                     <div class="bruginfo">
-                        <div class="aarsbrug">
-
+                        <div class="aarsbrug rang1">
+                            <img src="assets/barn1.jpg" alt="børne bruger">
                         </div>
                         <div class="aarsnavn stortekst">
                             <?php echo strtoupper($_SESSION["userwho"]); ?>
@@ -90,8 +90,8 @@
                 </div>
                 <div class="aarsind" <?php if($num < 1){ echo "style='display:none'";} ?>>
                     <div class="bruginfo">
-                        <div class="aarsbrug">
-
+                        <div class="aarsbrug rang1">
+                            <img src="assets/barn1.jpg" alt="børne bruger">
                         </div>
                         <div class="aarsnavn stortekst">
                             <?php echo strtoupper($_SESSION["barn0"]); ?>
@@ -109,8 +109,8 @@
                 </div>
                 <div class="aarsind" <?php if($num < 2){ echo "style='display:none'";} ?>>
                     <div class="bruginfo">
-                        <div class="aarsbrug">
-
+                        <div class="aarsbrug rang2">
+                            <img src="assets/barn2.jpg" alt="børne bruger">
                         </div>
                         <div class="aarsnavn stortekst">
                             <?php echo strtoupper($_SESSION["barn1"]); ?>
@@ -119,7 +119,7 @@
 
                         </div>
                     </div>
-                    <div class="qrbox">
+                    <div class="qrbox num2">
                         <img src="assets/qrkode.png" alt="qr kode">
                     </div>
                     <p>
@@ -135,7 +135,7 @@
             <a href="brugere.php" class="navtext">
                 <i class="fa-solid fa-user-group navicon"></i>
                 <br>
-                Bruger
+                Brugere
             </a>
         </div>
         <div id="aarskort">
