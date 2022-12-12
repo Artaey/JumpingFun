@@ -409,4 +409,9 @@ a {
 }
 .error .inputicon i {
   color: red;
+}
+
+.info {
+  text-align: center;
+  padding: 15px;
 }/*# sourceMappingURL=base.css.map */

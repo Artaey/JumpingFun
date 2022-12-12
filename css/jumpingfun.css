@@ -411,6 +411,11 @@ a {
   color: red;
 }
 
+.info {
+  text-align: center;
+  padding: 15px;
+}
+
 :root {
   background-image: url(../assets/baggrund.desktop.svg);
   background-position: center;
@@ -535,11 +540,6 @@ nav {
 
 .num2 {
   background: radial-gradient(circle, rgb(255, 193, 143) 0%, rgb(195, 116, 51) 45%, rgb(94, 43, 0) 100%);
-}
-
-.info {
-  text-align: center;
-  padding: 15px;
 }
 
 .icons {

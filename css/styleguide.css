@@ -412,6 +412,11 @@ a {
   color: red;
 }
 
+.info {
+  text-align: center;
+  padding: 15px;
+}
+
 body {
   margin: 0;
   color: #083649;
@@ -780,13 +785,5 @@ img {
 }
 
 #box {
-  background-color: #f8f8f8;
-  border-radius: 20px;
-  filter: drop-shadow(0px 10px 20px rgba(8, 54, 73, 0.5));
   width: 80%;
-}
-
-.info {
-  text-align: center;
-  padding: 15px;
 }/*# sourceMappingURL=styleguide.css.map */
