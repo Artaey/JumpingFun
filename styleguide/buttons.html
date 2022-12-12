@@ -150,28 +150,99 @@ width: 80px;
         </div>
         </div>
         
-        <h2 class="farveover">Børne brugere</h2>
+        <h2 class="farveover">Børne bruger, rang 1</h2>
         <div class="typediv1"></div>
         
                 <div class="row">
                     <div class="column">
                         <div class="knapper">
-                        <div class="icons iconslille">
-                            <div class="brugericon">
+
+                            <div class="brugercon">
+                                <a href="#">
+                                <div class="brugericon rang1">
+                                <img src="../assets/barn1.jpg" alt="børne bruger">
+                                </div>
+
                             </div>
-                        </div>
+
                         </div>
                     </div>
                     <div class="column right">
         <b>html:</b>
-<xmp><div class="icons iconslille">
-    <div class="brugericon">
-    </div>
+<xmp><div class="brugercon">
+    <a href="#">
+    <div class="brugericon rang1">
+    <img src="../assets/barn1.jpg" alt="børne bruger">
 </div></xmp>
-        <b>scss:</b>
-        <xmp>.brugericon{
-            background: black;
-        }</xmp>
+<b>scss:</b>
+<xmp>.rang1{
+    background: $goldgrad;
+}
+.brugericon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+    img{
+        height: 80px;
+        width: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: 50% 0%;
+        margin: auto;
+    }
+}</xmp>
+        </div>
+        </div>
+
+        <h2 class="farveover">Børne bruger, rang 2</h2>
+        <div class="typediv1"></div>
+        
+                <div class="row">
+                    <div class="column">
+                        <div class="knapper">
+
+                            <div class="brugercon">
+                                <a href="#">
+                                <div class="brugericon rang2">
+                                <img src="../assets/barn2.jpg" alt="børne bruger">
+                            </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="column right">
+        <b>html:</b>
+<xmp><div class="brugercon">
+    <a href="#">
+    <div class="brugericon rang2">
+    <img src="../assets/barn2.jpg" alt="børne bruger">
+</div></xmp>
+<b>scss:</b>
+<xmp>.rang2{
+    background: $bronzegrad;
+}
+.brugericon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+    img{
+        height: 80px;
+        width: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: 50% 0%;
+        margin: auto;
+    }
+}</xmp>
         </div>
         </div>
 
