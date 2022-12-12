@@ -84,7 +84,7 @@
 
     <nav>
         <div id="bruger">
-            <a href="#" class="navtext">
+            <a href="#" class="navtext pink">
                 <i class="fa-solid fa-user-group navicon"></i>
                 <br>
                 Brugere

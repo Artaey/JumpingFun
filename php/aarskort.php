@@ -139,7 +139,7 @@
             </a>
         </div>
         <div id="aarskort">
-            <a href="#" class="navtextbig">
+            <a href="#" class="navtextbig pink">
                 <svg xmlns="http://www.w3.org/2000/svg" width="78.341" height="68.258" viewBox="0 0 78.341 68.258">
                     <g id="Årskort_ikon" data-name="Årskort ikon" transform="translate(2.006 2.106)">
                         <g id="Icon_feather-credit-card" data-name="Icon feather-credit-card" transform="matrix(0.899, 0.438, -0.438, 0.899, 16.15, 8.828)">
