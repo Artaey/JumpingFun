@@ -1,7 +1,8 @@
 @import "base";
 
 :root{
-    background-image: url(../assets/baggrund.iphone.svg);
+    background-image: url(../assets/baggrund.desktop.svg);
+    background-position: center;
 }
 
 @mixin topbottom {
