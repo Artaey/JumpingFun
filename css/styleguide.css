@@ -33,6 +33,7 @@ body {
   font-weight: bold;
 }
 
+<<<<<<< Updated upstream
 .pink {
   color: #ec008c;
 }
@@ -42,6 +43,8 @@ body {
   color: green;
 }
 
+=======
+>>>>>>> Stashed changes
 .navtext {
   font-family: "Bebas Neue", sans-serif;
   color: #f8f8f8;
@@ -414,10 +417,15 @@ a {
   color: red;
 }
 
+<<<<<<< Updated upstream
 .info {
   text-align: center;
   padding: 15px;
   color: #083649;
+=======
+.pink {
+  color: #ec008c;
+>>>>>>> Stashed changes
 }
 
 body {
