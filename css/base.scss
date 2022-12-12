@@ -45,6 +45,10 @@ body{
     font-weight: bold;
 }
 
+.pink {
+    color: $pinkdark;
+}
+
 .aarsind{   
     p{
         margin: 5px;
@@ -457,6 +461,7 @@ color: $bluedark;
     padding: 15px;
     color: $bluedark;
 }
-.pink {
-    color: $pinkdark;
+
+nav .pink{
+    color: $pinklight;
 }

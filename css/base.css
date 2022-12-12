@@ -32,6 +32,10 @@ body {
   font-weight: bold;
 }
 
+.pink {
+  color: #ec008c;
+}
+
 .aarsind p {
   margin: 5px;
   color: green;
@@ -416,6 +420,6 @@ a {
   color: #083649;
 }
 
-.pink {
-  color: #ec008c;
+nav .pink {
+  color: #f900c4;
 }/*# sourceMappingURL=base.css.map */
