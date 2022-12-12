@@ -24,7 +24,7 @@ body {
   color: #f8f8f8;
   font-size: 35px;
   font-family: "Bebas Neue", sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 .stortekst {
@@ -36,10 +36,16 @@ body {
   color: #ec008c;
 }
 
+.aarsind p {
+  margin: 5px;
+  color: green;
+}
+
 .navtext {
   font-family: "Bebas Neue", sans-serif;
   color: #f8f8f8;
   font-size: 15px;
+  letter-spacing: 1px;
 }
 
 .navtextbig {
@@ -56,12 +62,14 @@ body {
   font-family: "Bebas Neue", sans-serif;
   color: #f8f8f8;
   font-size: 15px;
+  letter-spacing: 1px;
 }
 
 .navtextbig {
   font-family: "Bebas Neue", sans-serif;
   color: #f8f8f8;
   font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .navicon {
@@ -406,8 +414,19 @@ a {
   color: red;
 }
 
+.info {
+  text-align: center;
+  padding: 15px;
+  color: #083649;
+}
+
+nav .pink {
+  color: #f900c4;
+}
+
 :root {
-  background-image: url(../assets/baggrund.iphone.svg);
+  background-image: url(../assets/baggrund.desktop.svg);
+  background-position: center;
 }
 
 body {
@@ -479,10 +498,6 @@ header h1 {
   margin-right: 21.5%;
   text-align: center;
 }
-.aarsind p {
-  margin: 5px;
-  color: green;
-}
 
 nav {
   background: #083649;
@@ -533,11 +548,6 @@ nav {
 
 .num2 {
   background: radial-gradient(circle, rgb(255, 193, 143) 0%, rgb(195, 116, 51) 45%, rgb(94, 43, 0) 100%);
-}
-
-.info {
-  text-align: center;
-  padding: 15px;
 }
 
 .icons {
