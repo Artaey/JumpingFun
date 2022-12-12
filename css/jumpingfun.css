@@ -345,7 +345,7 @@ button:hover {
 /* Teksten over indtastfelterne start*/
 label {
   color: #083649;
-  font-style: bold;
+  font-weight: bold;
   float: left;
 }
 
@@ -381,14 +381,12 @@ a {
 
 /* Glemt kodeord link slut*/
 /* ikon styling */
-.inputicon {
-  /* checkbox generel styling */
-}
 .inputicon i {
   font-size: 25px;
   color: #083649;
 }
 
+/* checkbox generel styling */
 .mindretekst {
   font-size: 15px;
 }
