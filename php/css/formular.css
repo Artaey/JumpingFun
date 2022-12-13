@@ -378,9 +378,9 @@ a {
 
 /* Glemt kodeord link slut*/
 /* ikon styling */
-.inputicon {
+
   /* checkbox generel styling */
-}
+
 .inputicon i {
   font-size: 25px;
   color: #083649;
@@ -494,3 +494,9 @@ p {
 #error {
   float: left;
 }/*# sourceMappingURL=formular.css.map */
+
+
+.fjern{
+  margin-top: 20px;
+  color: rgb(182, 182, 182);
+}

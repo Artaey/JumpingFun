@@ -1,12 +1,12 @@
 <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "jftest";
+    ob_start();
+    $servername = "betweenfloorboards.com.mysql";
+    $username = "betweenfloorboards_comwordpress";
+    $password = "B0b47h4n";
+    $dbname = "betweenfloorboards_comwordpress";
     $conn = new mysqli($servername, $username, $password, $dbname);
 
     session_start();
-    $_POST['fam'] = "0";
 ?>
 
 <!DOCTYPE html>
@@ -124,8 +124,10 @@
                 $voksen = $_SESSION["userwho"];
                 $sql = "INSERT INTO familie(brugernavn_voksen, brugernavn_barn) VALUES ('$voksen', '$name')";
                 $conn->query($sql);
+                $_SESSION["iserror"] = "not";
                 header("Location: brugere.php");
               }else{
+                $_SESSION["iserror"] = "not";
                 header("Location: index.php");
               }
             }else{
@@ -138,3 +140,7 @@
     
 </body>
 </html>
+
+<?php
+  ob_flush();
+?>

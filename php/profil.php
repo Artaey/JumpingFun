@@ -1,8 +1,8 @@
 <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "jftest";
+    $servername = "betweenfloorboards.com.mysql";
+    $username = "betweenfloorboards_comwordpress";
+    $password = "B0b47h4n";
+    $dbname = "betweenfloorboards_comwordpress";
     $conn = new mysqli($servername, $username, $password, $dbname);
 
     session_start();
