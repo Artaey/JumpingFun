@@ -150,6 +150,8 @@ nav {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  max-width: 550px;
+  margin: auto;
 }
 
 #box {
@@ -345,7 +347,6 @@ button:hover {
 /* Teksten over indtastfelterne start*/
 label {
   color: #083649;
-  font-style: bold;
   float: left;
 }
 
@@ -381,14 +382,12 @@ a {
 
 /* Glemt kodeord link slut*/
 /* ikon styling */
-
-  /* checkbox generel styling */
-
 .inputicon i {
   font-size: 25px;
   color: #083649;
 }
 
+/* checkbox generel styling */
 .mindretekst {
   font-size: 15px;
 }
@@ -487,8 +486,6 @@ header h1 {
   height: 100%;
   display: flex;
   overflow-x: scroll;
-  -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
 }
 
 .aarsind {

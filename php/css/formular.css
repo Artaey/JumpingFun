@@ -45,6 +45,7 @@ body {
   font-family: "Bebas Neue", sans-serif;
   color: #f8f8f8;
   font-size: 15px;
+  letter-spacing: 1px;
 }
 
 .navtextbig {
@@ -61,12 +62,14 @@ body {
   font-family: "Bebas Neue", sans-serif;
   color: #f8f8f8;
   font-size: 15px;
+  letter-spacing: 1px;
 }
 
 .navtextbig {
   font-family: "Bebas Neue", sans-serif;
   color: #f8f8f8;
   font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .navicon {
@@ -147,6 +150,8 @@ nav {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  max-width: 550px;
+  margin: auto;
 }
 
 #box {
@@ -342,7 +347,6 @@ button:hover {
 /* Teksten over indtastfelterne start*/
 label {
   color: #083649;
-  font-style: bold;
   float: left;
 }
 
@@ -378,14 +382,12 @@ a {
 
 /* Glemt kodeord link slut*/
 /* ikon styling */
-
-  /* checkbox generel styling */
-
 .inputicon i {
   font-size: 25px;
   color: #083649;
 }
 
+/* checkbox generel styling */
 .mindretekst {
   font-size: 15px;
 }
@@ -409,6 +411,16 @@ a {
 }
 .error .inputicon i {
   color: red;
+}
+
+.info {
+  text-align: center;
+  padding: 15px;
+  color: #083649;
+}
+
+nav .pink {
+  color: #f900c4;
 }
 
 /* styling af logo start */
@@ -494,9 +506,3 @@ p {
 #error {
   float: left;
 }/*# sourceMappingURL=formular.css.map */
-
-
-.fjern{
-  margin-top: 20px;
-  color: rgb(182, 182, 182);
-}
