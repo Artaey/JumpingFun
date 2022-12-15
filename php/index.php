@@ -71,7 +71,7 @@
     </div>
 
     <p class="fjern">Login med:<br>
-    Brugernavn: Sofie M.<br>
+    Brugernavn: Sofie M<br>
     Password: 1983na<br>
     (Eller opret egen bruger)</p>
 </body>
