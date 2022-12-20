@@ -1,7 +1,7 @@
 <?php
     $servername = "betweenfloorboards.com.mysql";
     $username = "betweenfloorboards_comwordpress";
-    $password = "B0b47h4n";
+    $password = "B0b4th4n";
     $dbname = "betweenfloorboards_comwordpress";
     $conn = new mysqli($servername, $username, $password, $dbname);
 
