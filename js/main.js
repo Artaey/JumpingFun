@@ -12,9 +12,9 @@ function popup(){
         up = true;
     }else{
         setTimeout(() => {
-            pop.style.bottom = "0px"
+            pop.style.bottom = "-30px"
         }, 195);
-        pop.animate({"bottom" : "0px"},{duration : 200});
+        pop.animate({"bottom" : "-30px"},{duration : 200});
         console.log("down");
         up = false;
     }
